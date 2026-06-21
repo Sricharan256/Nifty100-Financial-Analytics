@@ -83,17 +83,6 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 * Completed end-to-end ETL pipeline from Excel files to SQLite database.
 
 ---
-## Day 6 – Data Quality Manual Review ✅
-
-- Verified all SQLite database tables.
-- Confirmed row counts for all datasets.
-- Performed manual review of five companies.
-- Verified year coverage across financial datasets.
-- Identified JIOFIN as the only company with less than five years of financial data.
-- Checked for missing values and duplicate records.
-- Verified foreign key integrity.
-- Generated a Data Quality Review report.
-- Successfully completed all unit tests.
 # Project Structure
 
 ```text
