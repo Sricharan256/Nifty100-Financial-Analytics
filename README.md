@@ -83,6 +83,7 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 * Completed end-to-end ETL pipeline from Excel files to SQLite database.
 
 ---
+<<<<<<< HEAD
 ## Day 6 – Data Quality Manual Review 
 
 - Verified all SQLite database tables.
@@ -95,6 +96,8 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Generated a Data Quality Review report.
 - Successfully completed all unit tests.
 
+=======
+>>>>>>> 41a11ab57d85f3944ad4c2d77e79a20c8619d430
 # Project Structure
 
 ```text
