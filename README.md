@@ -13,7 +13,7 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 * Validate data using Data Quality (DQ) rules.
 * Store validated data in a SQLite database.
 * Prepare data for financial analytics and dashboard development.
-* Generate reports for data validation and auditing.
+* Generate validation and load audit reports.
 
 ---
 
@@ -51,7 +51,7 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 * Generated `validation_report.csv`.
 * Successfully passed all ETL unit tests.
 
-Validation Summary
+### Validation Summary
 
 * ✅ Required Columns – Passed
 * ✅ Missing Values – Passed
@@ -62,12 +62,25 @@ Validation Summary
 ## Day 4 – SQLite Database Schema ✅
 
 * Created `schema.sql`.
-* Created SQLite database (`nifty100.db`).
 * Developed `database.py`.
+* Created SQLite database (`nifty100.db`).
 * Enabled SQLite Foreign Key support.
-* Created the Companies table.
+* Created database tables.
 * Verified database creation.
 * Added database unit tests.
+
+---
+
+## Day 5 – ETL Data Loading & Database Integration ✅
+
+* Developed `insert_data.py` to load validated Excel datasets into SQLite.
+* Automated loading of all project datasets into database tables.
+* Implemented reusable SQLite database connection.
+* Generated **Load Audit Report (`load_audit.csv`)**.
+* Created `verify_row_counts.py` to verify records loaded into database tables.
+* Verified successful data loading into SQLite.
+* Added database insertion and verification unit tests.
+* Completed end-to-end ETL pipeline from Excel files to SQLite database.
 
 ---
 
@@ -86,20 +99,20 @@ nifty100_financial_analytics/
 │   └── nifty100.db
 │
 ├── docs/
-│
 ├── notebooks/
 │
 ├── output/
-│   └── validation_report.csv
+│   ├── validation_report.csv
+│   └── load_audit.csv
 │
 ├── src/
 │   ├── db/
-│   │   ├── __init__.py
 │   │   ├── database.py
-│   │   └── check_database.py
+│   │   ├── insert_data.py
+│   │   ├── check_database.py
+│   │   └── verify_row_counts.py
 │   │
 │   ├── etl/
-│   │   ├── __init__.py
 │   │   ├── loader.py
 │   │   ├── normaliser.py
 │   │   └── validator.py
@@ -108,11 +121,10 @@ nifty100_financial_analytics/
 │
 ├── tests/
 │   ├── db/
-│   │   ├── __init__.py
-│   │   └── test_database.py
+│   │   ├── test_database.py
+│   │   └── test_insert.py
 │   │
 │   └── etl/
-│       ├── __init__.py
 │       ├── test_loader.py
 │       ├── test_normaliser.py
 │       └── test_validator.py
@@ -144,6 +156,12 @@ Schema Validation
 SQLite Database
       │
       ▼
+ETL Data Loading
+      │
+      ▼
+Load Audit Report
+      │
+      ▼
 Financial Analytics
       │
       ▼
@@ -171,7 +189,7 @@ Power BI Dashboard
 
 * Reads Excel datasets.
 * Loads Excel files into Pandas DataFrames.
-* Handles file loading errors.
+* Handles loading errors.
 * Displays dataset statistics.
 
 ---
@@ -187,7 +205,7 @@ Power BI Dashboard
 
 ## Validator Module (`validator.py`)
 
-Implements Data Quality (DQ) validation before data is loaded into SQLite.
+Implements Data Quality (DQ) validation before loading data into SQLite.
 
 ### Validation Rules
 
@@ -199,19 +217,7 @@ Implements Data Quality (DQ) validation before data is loaded into SQLite.
 
 ### Validation Output
 
-The validator generates:
-
-```text
-output/
-└── validation_report.csv
-```
-
-The report contains:
-
-* Validation Rule
-* Validation Status
-* Issue Description
-* Rows Affected
+* `output/validation_report.csv`
 
 ---
 
@@ -223,7 +229,30 @@ Responsible for:
 * Executing `schema.sql`
 * Creating database tables
 * Enabling foreign keys
-* Preparing the database for ETL loading
+
+---
+
+## ETL Loader Module (`insert_data.py`)
+
+Responsible for:
+
+* Loading validated Excel datasets into SQLite
+* Managing database connections
+* Inserting records into database tables
+* Generating load audit reports
+
+### Output
+
+* `output/load_audit.csv`
+
+---
+
+## Database Verification (`verify_row_counts.py`)
+
+Responsible for:
+
+* Verifying row counts for all database tables
+* Confirming successful ETL execution
 
 ---
 
@@ -234,9 +263,11 @@ Responsible for:
 * ✅ Data Normalisation Completed
 * ✅ Schema Validator Completed
 * ✅ Validation Report Generated
-* ✅ SQLite Database Schema Completed
+* ✅ SQLite Database Completed
+* ✅ ETL Data Loading Completed
+* ✅ Load Audit Report Generated
+* ✅ Database Verification Completed
 * ✅ Unit Tests Passed
-* ⏳ Full Data Loading (Day 5)
 * ⏳ Data Quality Review (Day 6)
 * ⏳ Sprint Review & Documentation (Day 7)
 
@@ -244,65 +275,35 @@ Responsible for:
 
 # How to Run
 
-## Activate Virtual Environment
-
 ```bash
+# Activate Virtual Environment
 venv\Scripts\activate
-```
 
----
-
-## Install Dependencies
-
-```bash
+# Install Dependencies
 pip install -r requirements.txt
-```
 
----
-
-## Run Loader
-
-```bash
+# Run Loader
 python src/etl/loader.py
-```
 
----
-
-## Run Normaliser
-
-```bash
+# Run Normaliser
 python src/etl/normaliser.py
-```
 
----
-
-## Run Validator
-
-```bash
+# Run Validator
 python src/etl/validator.py
-```
 
----
-
-## Create Database
-
-```bash
+# Create Database
 python src/db/database.py
-```
 
----
+# Load Data into SQLite
+python -m src.db.insert_data
 
-## Verify Database
-
-```bash
+# Verify Database
 python src/db/check_database.py
-```
 
----
+# Verify Row Counts
+python src/db/verify_row_counts.py
 
-## Run All Unit Tests
-
-```bash
+# Run All Unit Tests
 python -m pytest
 ```
 
@@ -317,14 +318,19 @@ python -m pytest
 * Validation Report
 * SQLite Database
 * Database Schema
+* ETL Data Loading
+* Load Audit Report
+* Database Verification
+* Row Count Verification
 * Unit Tests
 * Project Documentation
 
 ---
+
 # Author
 
 **Sricharan Medaboina**
 
 **Nifty 100 Financial Analytics Platform**
 
-Sprint 1 – Data Foundation
+**Sprint 1 – Data Foundation**

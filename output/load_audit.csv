@@ -1,0 +1,13 @@
+File,Table,Rows Loaded,Status,Timestamp
+companies.xlsx,companies,92,Success,2026-06-21 09:14:34
+profitandloss.xlsx,profit_loss,1276,Success,2026-06-21 09:14:35
+balancesheet.xlsx,balance_sheet,1312,Success,2026-06-21 09:14:35
+cashflow.xlsx,cash_flow,1187,Success,2026-06-21 09:14:35
+stock_prices.xlsx,stock_prices,5519,Success,2026-06-21 09:14:35
+analysis.xlsx,analysis,20,Success,2026-06-21 09:14:35
+documents.xlsx,documents,1585,Success,2026-06-21 09:14:36
+financial_ratios.xlsx,financial_ratios,1183,Success,2026-06-21 09:14:36
+peer_groups.xlsx,peer_groups,55,Success,2026-06-21 09:14:36
+prosandcons.xlsx,pros_cons,16,Success,2026-06-21 09:14:36
+sectors.xlsx,sectors,91,Success,2026-06-21 09:14:36
+market_cap.xlsx,market_cap,551,Success,2026-06-21 09:14:36

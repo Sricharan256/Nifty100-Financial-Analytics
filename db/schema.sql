@@ -1,9 +1,10 @@
--- Drop table if it already exists
+
+
+PRAGMA foreign_keys = ON;
 DROP TABLE IF EXISTS companies;
 
--- Create Companies Table
 CREATE TABLE companies (
-    id INTEGER PRIMARY KEY,
+    id TEXT PRIMARY KEY,
     company_logo TEXT,
     company_name TEXT NOT NULL,
     chart_link TEXT,

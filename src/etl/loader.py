@@ -8,7 +8,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from normaliser import normalize_year, normalize_ticker
+from src.etl.normaliser import normalize_year, normalize_ticker
 
 
 DATA_PATH = Path("data/raw")
@@ -48,4 +48,24 @@ def load_excel(file_name):
 
 if __name__ == "__main__":
 
-    load_excel("companies.xlsx")
+    files = [
+        "companies.xlsx",
+        "profitandloss.xlsx",
+        "balancesheet.xlsx",
+        "cashflow.xlsx",
+        "stock_prices.xlsx",
+        "analysis.xlsx",
+        "documents.xlsx",
+        "financial_ratios.xlsx",
+        "peer_groups.xlsx",
+        "prosandcons.xlsx",
+        "sectors.xlsx",
+        "shareholding.xlsx"
+    ]
+
+    for file in files:
+        print(f"\n{'=' * 50}")
+        print(f"Loading {file}")
+        print(f"{'=' * 50}")
+
+        load_excel(file)
