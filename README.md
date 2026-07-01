@@ -137,6 +137,17 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Added edge case handling.
 - Added unit tests.
 - Generated cagr_validation.csv.
+
+---
+## Day 11 – Cash Flow KPIs & Capital Allocation ✅
+
+- Implemented Free Cash Flow.
+- Implemented CFO Quality Score.
+- Implemented CapEx Intensity.
+- Implemented FCF Conversion.
+- Implemented Capital Allocation Pattern Classifier.
+- Generated capital_allocation.csv.
+- Added unit tests.
 # Project Structure
 
 ```text
@@ -387,3 +398,4 @@ python -m pytest
 **Nifty 100 Financial Analytics Platform**
 
 **Sprint 1 – Data Foundation**
+**Sprint 2 - Financial Ratio Engine**
