@@ -165,6 +165,16 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Generated `ratio_edge_cases.log`.
 - Documented formula differences for further review.
 - Verified the `financial_ratios` table contains all calculated KPI records.
+---
+## Day 14 – Tests & Sprint Review 
+
+- Executed all KPI unit tests.
+- Reviewed ratio_edge_cases.log.
+- Verified financial_ratios table.
+- Ran screener preview.
+- Completed Sprint 2 retrospective.
+- Demonstrated financial_ratios table.
+
 # Project Structure
 
 ```text
