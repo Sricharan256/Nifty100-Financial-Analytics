@@ -16,7 +16,14 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 * Generate validation and load audit reports.
 
 ---
+# Sprint Progress
 
+| Sprint | Status |
+|---------|--------|
+| Sprint 1 – Data Foundation | Completed |
+| Sprint 2 – Financial Ratio Engine | Completed |
+| Sprint 3 – Screener & Peer Comparison | 🚧 In Progress (Day 15 Completed) |
+---
 # Sprint 1 – Data Foundation
 
 ## Day 1 – Environment Setup 
@@ -168,17 +175,30 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 ---
 ## Day 14 – Tests & Sprint Review 
 
-- Executed all KPI unit tests.
+- Executed all KPI unit tests.      
 - Reviewed ratio_edge_cases.log.
 - Verified financial_ratios table.
 - Ran screener preview.
 - Completed Sprint 2 retrospective.
 - Demonstrated financial_ratios table.
+---
+## Day 15 – Financial Screener Filter Engine
+
+- Created the Financial Screener Filter Engine.
+- Loaded financial ratios from the SQLite database.
+- Implemented configurable screening thresholds using a YAML configuration file.
+- Applied filters based on Return on Equity (ROE), Debt-to-Equity (D/E), and Free Cash Flow (FCF).
+- Retrieved the latest financial record for each company before screening.
+- Sorted filtered companies using the Composite Quality Score.
+- Generated the `day15_filter_results.csv` report for screened companies.
 
 # Project Structure
 
 ```text
 nifty100_financial_analytics/
+│
+├── config/
+│   └── screener_config.yaml
 │
 ├── data/
 │   ├── raw/
@@ -194,37 +214,44 @@ nifty100_financial_analytics/
 │
 ├── output/
 │   ├── validation_report.csv
-│   └── load_audit.csv
+│   ├── load_audit.csv
+│   ├── profitability_validation.csv
+│   ├── cagr_validation.csv
+│   ├── capital_allocation.csv
+│   ├── financial_ratios_validation.csv
+│   ├── ratio_edge_cases.log
+│   └── day15_filter_results.csv
 │
 ├── src/
+│   ├── analytics/
+│   │   ├── profitability.py
+│   │   ├── leverage.py
+│   │   ├── efficiency.py
+│   │   ├── cagr.py
+│   │   ├── cashflow_kpis.py
+│   │   ├── populate_financial_ratios.py
+│   │   ├── generate_capital_allocation.py
+│   │   └── ratio_validation.py
+│   │
+│   ├── screener/
+│   │   ├── __init__.py
+│   │   ├── engine.py
+│   │   └── presets.py
+│   │
 │   ├── db/
-│   │   ├── database.py
-│   │   ├── insert_data.py
-│   │   ├── check_database.py
-│   │   └── verify_row_counts.py
-│   │
 │   ├── etl/
-│   │   ├── loader.py
-│   │   ├── normaliser.py
-│   │   └── validator.py
-│   │
 │   └── utils/
 │
 ├── tests/
 │   ├── db/
-│   │   ├── test_database.py
-│   │   └── test_insert.py
-│   │
-│   └── etl/
-│       ├── test_loader.py
-│       ├── test_normaliser.py
-│       └── test_validator.py
+│   ├── etl/
+│   └── kpi/
 │
 ├── README.md
 ├── requirements.txt
 ├── Makefile
-├── .env
-└── .gitignore
+├── .gitignore
+└── .env
 ```
 
 ---
@@ -263,14 +290,16 @@ Power BI Dashboard
 
 # Technologies Used
 
-* Python 3.12
-* Pandas
-* NumPy
-* OpenPyXL
-* SQLite
-* Pytest
-* Git & GitHub
-* Power BI
+- Python 3.12
+- Pandas
+- NumPy
+- SQLite
+- PyYAML
+- OpenPyXL
+- Pytest
+- Git & GitHub
+- VS Code
+- Power BI
 
 ---
 
@@ -349,18 +378,36 @@ Responsible for:
 
 # Current Progress
 
-* Environment Setup Completed
-* Excel Loader Completed
-* Data Normalisation Completed
-* Schema Validator Completed
-* Validation Report Generated
-* SQLite Database Completed
-* ETL Data Loading Completed
-* Load Audit Report Generated
-* Database Verification Completed
-* Unit Tests Passed
-* Data Quality Review (Day 6)
-* Sprint Review & Documentation (Day 7)
+## Sprint 1 – Data Foundation
+
+- Environment Setup
+- ETL Pipeline
+- Data Validation
+- SQLite Database
+- ETL Data Loading
+- Database Verification
+- Sprint Review
+
+## Sprint 2 – Financial Ratio Engine
+
+- Profitability Ratio Engine
+- Leverage Ratio Engine
+- Efficiency Ratio Engine
+- CAGR Engine
+- Cash Flow KPI Engine
+- Capital Allocation
+- Financial Ratios Population
+- Ratio Validation
+- KPI Unit Tests
+
+## Sprint 3 – Screener & Peer Comparison
+
+- ✅ Day 15 – Financial Screener Filter Engine
+- 🚧 Day 16 – Preset Screeners
+- 🚧 Composite Quality Score
+- 🚧 Peer Comparison Engine
+- 🚧 Radar Charts
+- 🚧 Excel Reports
 
 ---
 
@@ -373,13 +420,9 @@ venv\Scripts\activate
 # Install Dependencies
 pip install -r requirements.txt
 
-# Run Loader
+# Run ETL Pipeline
 python src/etl/loader.py
-
-# Run Normaliser
 python src/etl/normaliser.py
-
-# Run Validator
 python src/etl/validator.py
 
 # Create Database
@@ -390,31 +433,61 @@ python -m src.db.insert_data
 
 # Verify Database
 python src/db/check_database.py
-
-# Verify Row Counts
 python src/db/verify_row_counts.py
 
-# Run All Unit Tests
+# Populate Financial Ratios
+python -m src.analytics.populate_financial_ratios
+
+# Validate Financial Ratios
+python -m src.analytics.ratio_validation
+
+# Run Financial Screener Engine
+python -m src.screener.engine
+
+# Run Preset Screeners
+python -m src.screener.presets
+
+# Execute All Unit Tests
 python -m pytest
 ```
-
 ---
 
-# Deliverables Completed
+# Deliverables
 
-* Project Structure
-* Excel Loader
-* Data Normaliser
-* Schema Validator
-* Validation Report
-* SQLite Database
-* Database Schema
-* ETL Data Loading
-* Load Audit Report
-* Database Verification
-* Row Count Verification
-* Unit Tests
-* Project Documentation
+## Database
+
+- SQLite Database (`nifty100.db`)
+- Financial Ratios Table
+
+## Reports
+
+- validation_report.csv
+- load_audit.csv
+- profitability_validation.csv
+- cagr_validation.csv
+- capital_allocation.csv
+- financial_ratios_validation.csv
+- ratio_edge_cases.log
+- day15_filter_results.csv
+
+## Analytics Modules
+
+- Profitability Engine
+- Leverage Engine
+- Efficiency Engine
+- CAGR Engine
+- Cash Flow KPI Engine
+- Financial Screener Engine
+
+## Testing
+
+- ETL Unit Tests
+- KPI Unit Tests
+
+## Documentation
+
+- README
+- Sprint Documentation
 
 ---
 
@@ -426,3 +499,4 @@ python -m pytest
 
 **Sprint 1 – Data Foundation**
 **Sprint 2 - Financial Ratio Engine**
+🚧 Sprint 3 – Screener & Peer Comparison
