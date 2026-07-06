@@ -191,6 +191,15 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Retrieved the latest financial record for each company before screening.
 - Sorted filtered companies using the Composite Quality Score.
 - Generated the `day15_filter_results.csv` report for screened companies.
+---
+## Day 16 – Preset Screeners
+
+- Implemented six predefined financial screener presets.
+- Applied preset-specific filtering rules using financial ratios.
+- Screened the latest financial data for all companies.
+- Ranked companies using the Composite Quality Score.
+- Exported screening results to `output/screener_output.xlsx`.
+- Validated preset outputs and reviewed the shortlisted companies.
 
 # Project Structure
 
@@ -402,12 +411,12 @@ Responsible for:
 
 ## Sprint 3 – Screener & Peer Comparison
 
-- ✅ Day 15 – Financial Screener Filter Engine
-- 🚧 Day 16 – Preset Screeners
-- 🚧 Composite Quality Score
-- 🚧 Peer Comparison Engine
-- 🚧 Radar Charts
-- 🚧 Excel Reports
+- Day 15 – Financial Screener Filter Engine
+- Day 16 – Preset Screeners
+- Composite Quality Score
+- Peer Comparison Engine
+- Radar Charts
+- Excel Reports
 
 ---
 
@@ -499,4 +508,4 @@ python -m pytest
 
 **Sprint 1 – Data Foundation**
 **Sprint 2 - Financial Ratio Engine**
-🚧 Sprint 3 – Screener & Peer Comparison
+**Sprint 3 – Screener & Peer Comparison**
