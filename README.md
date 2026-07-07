@@ -22,7 +22,7 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 |---------|--------|
 | Sprint 1 – Data Foundation | Completed |
 | Sprint 2 – Financial Ratio Engine | Completed |
-| Sprint 3 – Screener & Peer Comparison | 🚧 In Progress (Day 15 Completed) |
+| Sprint 3 – Screener & Peer Comparison | In Progress|
 ---
 # Sprint 1 – Data Foundation
 
@@ -200,6 +200,16 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Ranked companies using the Composite Quality Score.
 - Exported screening results to `output/screener_output.xlsx`.
 - Validated preset outputs and reviewed the shortlisted companies.
+---
+## Day 17 – Composite Score & Screener Export
+
+- Implemented Composite Quality Score calculation.
+- Applied P10/P90 winsorization for metric normalization.
+- Computed sector-relative performance scores.
+- Generated multi-sheet `screener_output.xlsx`.
+- Added conditional formatting for financial thresholds.
+- Ranked companies using Composite Quality Score.
+- Validated generated screener reports.
 
 # Project Structure
 
