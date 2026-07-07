@@ -210,6 +210,15 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Added conditional formatting for financial thresholds.
 - Ranked companies using Composite Quality Score.
 - Validated generated screener reports.
+---
+## Day 18 – Peer Percentile Rankings
+
+- Developed Peer Percentile Ranking Engine.
+- Computed percentile rankings for financial metrics.
+- Inverted Debt-to-Equity ranking (lower is better).
+- Created `peer_percentiles` table in SQLite.
+- Generated `peer_comparison.xlsx` with peer-wise sheets.
+- Applied conditional formatting and benchmark highlighting.
 
 # Project Structure
 
