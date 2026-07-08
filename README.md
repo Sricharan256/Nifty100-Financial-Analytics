@@ -219,6 +219,15 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Created `peer_percentiles` table in SQLite.
 - Generated `peer_comparison.xlsx` with peer-wise sheets.
 - Applied conditional formatting and benchmark highlighting.
+---
+## Day 19 – Radar Chart Generation
+
+- Developed a radar chart engine for visualizing company financial performance.
+- Compared each company against its peer group average across eight financial metrics.
+- Generated radar charts using Matplotlib polar plots.
+- Created standalone radar charts for companies without peer groups using the Nifty 100 average.
+- Exported all radar charts as PNG files to `reports/radar_charts/`.
+- Automated chart generation for all companies in the dataset.
 
 # Project Structure
 
