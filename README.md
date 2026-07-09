@@ -237,6 +237,15 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Highlighted benchmark companies using gold formatting.
 - Added peer-group median summary rows.
 - Automated Excel report generation using OpenPyXL.
+---
+## Day 21 – Sprint 3 Review & Testing
+
+- Executed Data Quality unit tests.
+- Verified Quality Compounder screener output.
+- Validated peer percentile rankings.
+- Reviewed generated Excel reports.
+- Verified radar chart generation.
+- Completed Sprint 3 retrospective and project demonstration.
 
 # Project Structure
 
