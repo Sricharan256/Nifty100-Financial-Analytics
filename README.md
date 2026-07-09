@@ -22,7 +22,7 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 |---------|--------|
 | Sprint 1 – Data Foundation | Completed |
 | Sprint 2 – Financial Ratio Engine | Completed |
-| Sprint 3 – Screener & Peer Comparison | In Progress|
+| Sprint 3 – Screener & Peer Comparison | Completed|
 ---
 # Sprint 1 – Data Foundation
 
