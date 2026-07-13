@@ -23,6 +23,8 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 | Sprint 1 – Data Foundation | Completed |
 | Sprint 2 – Financial Ratio Engine | Completed |
 | Sprint 3 – Screener & Peer Comparison | Completed|
+| Sprint 4 – DASHBOARD & VALUATION MODULE | In Progress|
+
 ---
 # Sprint 1 – Data Foundation
 
@@ -114,6 +116,7 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Updated project documentation.
 - Successfully completed Sprint 1 – Data Foundation.
 ---------
+## SPRINT 2 — Financial Ratio Engine
 ## Day 8 – Profitability Ratio Engine 
 
 - Created the `analytics` module.
@@ -182,6 +185,7 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Completed Sprint 2 retrospective.
 - Demonstrated financial_ratios table.
 ---
+## SPRINT 3 — Screener & Peer Comparison Engine
 ## Day 15 – Financial Screener Filter Engine
 
 - Created the Financial Screener Filter Engine.
@@ -246,6 +250,15 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Reviewed generated Excel reports.
 - Verified radar chart generation.
 - Completed Sprint 3 retrospective and project demonstration.
+---
+## Sprint 4 – Day 22: Streamlit Dashboard Scaffold
+
+### Day 22 – Streamlit Dashboard Scaffold
+
+- Developed the initial Streamlit dashboard framework with multi-page navigation and a responsive wide-layout interface.
+- Implemented a reusable SQLite database utility module with cached data loading for efficient access to company and financial data.
+- Created the dashboard structure with eight placeholder screens covering Home, Company Profile, Screener, Peer Comparison, Trends, Sectors, Capital Allocation, and Reports.
+- Verified successful application startup, sidebar navigation, and database connectivity to support upcoming dashboard features.
 
 # Project Structure
 
@@ -257,56 +270,91 @@ nifty100_financial_analytics/
 │
 ├── data/
 │   ├── raw/
-│   ├── processed/
-│   └── supplementary/
+│   │   ├── analysis.xlsx
+│   │   ├── balancesheet.xlsx
+│   │   ├── cashflow.xlsx
+│   │   ├── companies.xlsx
+│   │   ├── documents.xlsx
+│   │   ├── financial_ratios.xlsx
+│   │   ├── market_cap.xlsx
+│   │   ├── peer_groups.xlsx
+│   │   ├── profitandloss.xlsx
+│   │   ├── prosandcons.xlsx
+│   │   ├── sectors.xlsx
+│   │   └── stock_prices.xlsx
+│   │
+│   └── processed/
 │
 ├── db/
-│   ├── schema.sql
-│   └── nifty100.db
-│
-├── docs/
-├── notebooks/
+│   ├── nifty100.db
+│   ├── check_schema.py
+│   └── check_excel_headers.py
 │
 ├── output/
-│   ├── validation_report.csv
-│   ├── load_audit.csv
-│   ├── profitability_validation.csv
-│   ├── cagr_validation.csv
-│   ├── capital_allocation.csv
-│   ├── financial_ratios_validation.csv
-│   ├── ratio_edge_cases.log
-│   └── day15_filter_results.csv
+│   ├── screener_output.xlsx
+│   ├── peer_comparison.xlsx
+│   └── valuation_summary.xlsx        (Day 26)
+│
+├── reports/
+│   └── radar_charts/
+│       ├── ABB_radar.png
+│       ├── TCS_radar.png
+│       ├── LT_radar.png
+│       └── ...
 │
 ├── src/
-│   ├── analytics/
-│   │   ├── profitability.py
-│   │   ├── leverage.py
-│   │   ├── efficiency.py
-│   │   ├── cagr.py
-│   │   ├── cashflow_kpis.py
-│   │   ├── populate_financial_ratios.py
-│   │   ├── generate_capital_allocation.py
-│   │   └── ratio_validation.py
 │   │
-│   ├── screener/
+│   ├── analytics/
 │   │   ├── __init__.py
-│   │   ├── engine.py
-│   │   └── presets.py
+│   │   ├── composite_score.py
+│   │   ├── peer.py
+│   │   ├── radar_chart.py
+│   │   ├── peer_comparison_report.py
+│   │   └── valuation.py              (Day 26)
+│   │
+│   ├── dashboard/
+│   │   ├── __init__.py
+│   │   ├── app.py
+│   │   │
+│   │   ├── utils/
+│   │   │   ├── __init__.py
+│   │   │   └── db.py
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── __init__.py
+│   │   │   ├── 01_home.py
+│   │   │   ├── 02_profile.py
+│   │   │   ├── 03_screener.py
+│   │   │   ├── 04_peers.py
+│   │   │   ├── 05_trends.py
+│   │   │   ├── 06_sectors.py
+│   │   │   ├── 07_capital.py
+│   │   │   └── 08_reports.py
+│   │   │
+│   │   └── test_db.py
 │   │
 │   ├── db/
-│   ├── etl/
-│   └── utils/
+│   │   ├── check_schema.py
+│   │   ├── check_excel_headers.py
+│   │   └── verify_sqlite.py
+│   │
+│   └── screener/
+│       ├── __init__.py
+│       ├── engine.py
+│       ├── presets.py
+│       ├── export_presets.py
+│       └── composite_score.py
 │
 ├── tests/
-│   ├── db/
-│   ├── etl/
-│   └── kpi/
+│   ├── test_dq_rules.py
+│   └── day21_verification.py
+│
+├── venv/
 │
 ├── README.md
 ├── requirements.txt
-├── Makefile
 ├── .gitignore
-└── .env
+└── LICENSE
 ```
 
 ---
@@ -555,3 +603,4 @@ python -m pytest
 **Sprint 1 – Data Foundation**
 **Sprint 2 - Financial Ratio Engine**
 **Sprint 3 – Screener & Peer Comparison**
+**Sprint 4 – DASHBOARD & VALUATION MODULE**

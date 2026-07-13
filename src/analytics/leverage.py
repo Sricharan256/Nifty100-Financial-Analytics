@@ -9,7 +9,6 @@ def debt_to_equity(total_debt, shareholders_equity):
     """
     Calculate Debt-to-Equity Ratio.
     """
-
     if total_debt is None or shareholders_equity is None:
         return None
 

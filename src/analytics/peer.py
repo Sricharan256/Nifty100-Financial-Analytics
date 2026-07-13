@@ -9,7 +9,7 @@ Peer Percentile Ranking Engine
 import sqlite3
 import pandas as pd
 
-DB_PATH = "db/nifty100.db"
+DB_PATH = "db/nifty100.db"  
 
 
 # ---------------------------------------------------------

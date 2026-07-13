@@ -33,6 +33,7 @@ def asset_turnover(sales, total_assets):
     if total_assets == 0:
         return None
 
+
     # Negative assets are invalid
     if total_assets < 0:
         return None
