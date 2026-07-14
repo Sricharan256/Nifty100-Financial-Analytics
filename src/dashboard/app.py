@@ -1,114 +1,69 @@
 """
-Sprint 4 - Day 22
+Sprint 4 - Day 23
 
-Main Streamlit Application
+Nifty 100 Financial Analytics Dashboard
+Main Entry Point
 """
 
 import streamlit as st
 
-
-# -----------------------------------------------------
+# ---------------------------------------------------------
 # Page Configuration
-# -----------------------------------------------------
+# ---------------------------------------------------------
 
 st.set_page_config(
-
     page_title="Nifty 100 Analytics",
-
+    page_icon="📈",
     layout="wide",
-
     initial_sidebar_state="expanded"
-
 )
 
-# -----------------------------------------------------
-# Sidebar
-# -----------------------------------------------------
+# ---------------------------------------------------------
+# Dashboard Header
+# ---------------------------------------------------------
 
-st.sidebar.title("Nifty 100 Analytics")
+st.title("📈 Nifty 100 Financial Analytics Platform")
 
-page = st.sidebar.radio(
+st.markdown(
+    """
+    Welcome to the **Nifty 100 Financial Analytics Dashboard**.
 
-    "Navigation",
-
-    [
-
-        "Home",
-
-        "Company Profile",
-
-        "Screener",
-
-        "Peer Comparison",
-
-        "Trend Analysis",
-
-        "Sector Analysis",
-
-        "Capital Allocation",
-
-        "Annual Reports"
-
-    ]
-
+    Use the **sidebar** to navigate between the dashboard screens.
+    """
 )
-
-# -----------------------------------------------------
-# Dashboard Title
-# -----------------------------------------------------
-
-st.title("📈 Nifty 100 Financial Intelligence Platform")
 
 st.markdown("---")
 
-# -----------------------------------------------------
-# Placeholder Pages
-# -----------------------------------------------------
+# ---------------------------------------------------------
+# Home Information
+# ---------------------------------------------------------
 
-if page == "Home":
+st.subheader("Dashboard Modules")
 
-    st.header("Home")
+col1, col2 = st.columns(2)
 
-    st.info("Home screen will be implemented on Day 23.")
+with col1:
 
-elif page == "Company Profile":
+    st.success("🏠 Home Dashboard")
 
-    st.header("Company Profile")
+    st.success("🏢 Company Profile")
 
-    st.info("Company Profile screen will be implemented on Day 23.")
+    st.success("📊 Financial Screener")
 
-elif page == "Screener":
+    st.success("👥 Peer Comparison")
 
-    st.header("Financial Screener")
+with col2:
 
-    st.info("Screener screen will be implemented on Day 24.")
+    st.success("📈 Trend Analysis")
 
-elif page == "Peer Comparison":
+    st.success("🏭 Sector Analysis")
 
-    st.header("Peer Comparison")
+    st.success("💰 Capital Allocation")
 
-    st.info("Peer Comparison screen will be implemented on Day 24.")
+    st.success("📄 Annual Reports")
 
-elif page == "Trend Analysis":
+st.markdown("---")
 
-    st.header("Trend Analysis")
-
-    st.info("Trend Analysis screen will be implemented on Day 25.")
-
-elif page == "Sector Analysis":
-
-    st.header("Sector Analysis")
-
-    st.info("Sector Analysis screen will be implemented on Day 25.")
-
-elif page == "Capital Allocation":
-
-    st.header("Capital Allocation")
-
-    st.info("Capital Allocation screen will be implemented on Day 25.")
-
-elif page == "Annual Reports":
-
-    st.header("Annual Reports")
-
-    st.info("Annual Reports screen will be implemented on Day 25.")
+st.info(
+    "Select a page from the left sidebar to begin exploring the dashboard."
+)

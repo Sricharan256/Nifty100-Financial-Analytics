@@ -1,7 +1,3 @@
-from utils.db import *
+from utils.db import get_all_ratios
 
-print(get_companies().head())
-
-print(get_ratios("TCS").head())
-
-print("\nDatabase utilities tested successfully.")
+print(get_all_ratios)

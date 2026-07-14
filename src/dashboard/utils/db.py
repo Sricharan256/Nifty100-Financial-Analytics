@@ -58,26 +58,26 @@ def get_companies():
 # Financial Ratios
 # ---------------------------------------------------------
 
-@st.cache_data(ttl=600)
-def get_ratios(ticker, year=None):
+def get_ratios(ticker=None, year=None):
 
     conn = get_connection()
 
-    sql = """
-    SELECT *
-    FROM financial_ratios
-    WHERE company_id=?
-    """
+    sql = "SELECT * FROM financial_ratios"
+    params = []
 
-    params = [ticker]
+    if ticker is not None:
+        sql += " WHERE company_id=?"
+        params.append(ticker)
 
-    if year is not None:
+        if year is not None:
+            sql += " AND year=?"
+            params.append(year)
 
-        sql += " AND year=?"
-
+    elif year is not None:
+        sql += " WHERE year=?"
         params.append(year)
 
-    sql += " ORDER BY year"
+    sql += " ORDER BY company_id, year"
 
     df = pd.read_sql(
         sql,
@@ -88,8 +88,28 @@ def get_ratios(ticker, year=None):
     conn.close()
 
     return df
+# ---------------------------------------------------------
+# Load All Financial Ratios
+# ---------------------------------------------------------
+@st.cache_data(ttl=600)
+def get_all_ratios():
 
+    conn = get_connection()
 
+    df = pd.read_sql(
+
+        """
+        SELECT *
+        FROM financial_ratios
+        """,
+
+        conn
+
+    )
+
+    conn.close()
+
+    return df
 # ---------------------------------------------------------
 # Profit & Loss
 # ---------------------------------------------------------
