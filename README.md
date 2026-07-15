@@ -259,20 +259,19 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Implemented a reusable SQLite database utility module with cached data loading for efficient access to company and financial data.
 - Created the dashboard structure with eight placeholder screens covering Home, Company Profile, Screener, Peer Comparison, Trends, Sectors, Capital Allocation, and Reports.
 - Verified successful application startup, sidebar navigation, and database connectivity to support upcoming dashboard features.
-## Sprint 4 – Day 23
 
-- Implemented the **Home Dashboard** with financial year selection, six KPI summary cards, sector-wise donut chart, and Top-5 companies table based on composite quality score.
-- Developed the **Company Profile** page with company search, profile information, financial KPI cards, Revenue vs Net Profit chart, ROE vs ROCE trend chart, and Pros & Cons section.
-- Integrated the Streamlit dashboard with the SQLite database using reusable database utility functions for efficient data retrieval.
-- Added graceful handling for missing company logos, unavailable Pros & Cons data, and invalid ticker searches to improve user experience.
+## Day 23
 
-## Sprint 4 – Day 24
+- Developed the Home Dashboard with KPI cards, sector-wise donut chart, and Top-5 companies table.
+- Implemented the Company Profile page with company search, financial KPI cards, charts, and Pros & Cons section.
+- Integrated the dashboard with the SQLite database and added handling for missing data.
 
-- Implemented the **Stock Screener** with 10 financial metric filters, preset screening strategies (Quality, Value, Growth, Dividend, Debt-Free, and Turnaround), live-updating results, and CSV export functionality.
-- Developed the **Peer Comparison** page with peer group selection, company comparison, interactive radar chart, and KPI comparison table with benchmark company highlighting.
-- Integrated financial ratios, market valuation, and sector data from the SQLite database to enable dynamic stock screening and peer analysis.
-- Enhanced the dashboard with interactive visualizations, responsive data tables, and reusable database functions for improved performance and maintainability.
+## Day 24
 
+- Developed the Stock Screener with financial metric filters, preset screening options, and CSV export.
+- Implemented the Peer Comparison page with radar chart and KPI comparison table.
+- Integrated dynamic filtering and peer analysis using SQLite database data.
+---
 # Project Structure
 
 ```text
