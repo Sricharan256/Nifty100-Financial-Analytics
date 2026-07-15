@@ -377,3 +377,45 @@ def get_reports(ticker):
     conn.close()
 
     return df
+# ---------------------------------------------------------
+# Market Cap Data
+# ---------------------------------------------------------
+
+@st.cache_data(ttl=600)
+def get_market_cap():
+
+    conn = get_connection()
+
+    df = pd.read_sql(
+        """
+        SELECT *
+        FROM market_cap
+        """,
+        conn
+    )
+
+    conn.close()
+
+    return df
+
+
+# ---------------------------------------------------------
+# Peer Percentiles
+# ---------------------------------------------------------
+
+@st.cache_data(ttl=600)
+def get_peer_percentiles():
+
+    conn = get_connection()
+
+    df = pd.read_sql(
+        """
+        SELECT *
+        FROM peer_percentiles
+        """,
+        conn
+    )
+
+    conn.close()
+
+    return df
