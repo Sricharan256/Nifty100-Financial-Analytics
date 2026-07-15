@@ -260,13 +260,13 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Created the dashboard structure with eight placeholder screens covering Home, Company Profile, Screener, Peer Comparison, Trends, Sectors, Capital Allocation, and Reports.
 - Verified successful application startup, sidebar navigation, and database connectivity to support upcoming dashboard features.
 
-## Day 23
+## Day 23-Home Screen & Company Profile Screen
 
 - Developed the Home Dashboard with KPI cards, sector-wise donut chart, and Top-5 companies table.
 - Implemented the Company Profile page with company search, financial KPI cards, charts, and Pros & Cons section.
 - Integrated the dashboard with the SQLite database and added handling for missing data.
 
-## Day 24
+## Day 24-Screener Screen & Peer Comparison Screen
 
 - Developed the Stock Screener with financial metric filters, preset screening options, and CSV export.
 - Implemented the Peer Comparison page with radar chart and KPI comparison table.
