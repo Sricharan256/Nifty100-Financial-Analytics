@@ -271,6 +271,12 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Developed the Stock Screener with financial metric filters, preset screening options, and CSV export.
 - Implemented the Peer Comparison page with radar chart and KPI comparison table.
 - Integrated dynamic filtering and peer analysis using SQLite database data.
+## Day 25-Remaining 4 Screens
+
+- Implemented Trend Analysis with multi-metric comparison and 10-year financial trends.
+- Developed Sector Analysis with bubble chart and sector median KPI visualization.
+- Built Capital Allocation Map using Plotly treemap and company pattern classification.
+- Added Annual Reports page with searchable company reports and downloadable PDF links.
 ---
 # Project Structure
 
