@@ -277,6 +277,12 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Developed Sector Analysis with bubble chart and sector median KPI visualization.
 - Built Capital Allocation Map using Plotly treemap and company pattern classification.
 - Added Annual Reports page with searchable company reports and downloadable PDF links.
+# Day 26-Valuation Analytics Module
+
+- Integrated company, financial ratio, market capitalization, and sector data for valuation analysis.
+- Calculated FCF Yield, Sector Median P/E, and P/E vs Sector Median percentage for all companies.
+- Classified companies as **Caution**, **Discount**, or **Fair** based on valuation rules.
+- Generated `valuation_summary.xlsx` and `valuation_flags.csv` reports for further analysis.
 ---
 # Project Structure
 
