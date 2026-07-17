@@ -285,6 +285,13 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Calculated FCF Yield, Sector Median P/E, and P/E vs Sector Median percentage for all companies.
 - Classified companies as **Caution**, **Discount**, or **Fair** based on valuation rules.
 - Generated `valuation_summary.xlsx` and `valuation_flags.csv` reports for further analysis.
+
+# Day 27-Integration QA & Bug Fixes
+
+- Tested the Streamlit dashboard using multiple companies across different sectors and validated handling of partial data.
+- Performed QA checks for missing values, generated QA reports, and verified application stability under different scenarios.
+- Created QA artifacts including sample companies, missing data summary, QA checklist, and QA summary report.
+- Improved application reliability by validating edge cases and preparing the project for final integration testing.
 ---
 # Project Structure
 
