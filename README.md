@@ -23,7 +23,8 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 | Sprint 1 – Data Foundation | Completed |
 | Sprint 2 – Financial Ratio Engine | Completed |
 | Sprint 3 – Screener & Peer Comparison | Completed|
-| Sprint 4 – DASHBOARD & VALUATION MODULE | In Progress|
+| Sprint 4 – DASHBOARD & VALUATION MODULE | Completed |
+| Sprint 5 – QA, Documentation & Deployment | In Progress |
 
 ---
 # Sprint 1 – Data Foundation
@@ -511,6 +512,88 @@ Responsible for:
 * Confirming successful ETL execution
 
 ---
+# Dashboard Screens
+
+## 1. Home Dashboard
+
+![Home Dashboard](screenshots/home.png)
+
+Displays the overall dashboard with KPI cards, sector distribution, and top-performing companies.
+
+---
+
+## 2. Company Profile
+
+### Company Overview
+
+![Company Profile](screenshots/profile2.png)
+
+### Financial Details
+
+![Company Profile Continued](screenshots/profile3.png)
+
+Displays company information, financial KPIs, charts, and annual reports.
+
+---
+
+## 3. Stock Screener
+
+### Screener Filters
+
+![Stock Screener](screenshots/screener.png)
+
+### Screener Results
+
+![Stock Screener Results](screenshots/screener2.png)
+
+Filters companies based on financial metrics and preset screeners.
+
+---
+
+## 4. Peer Comparison
+
+![Peer Comparison](screenshots/peer.png)
+
+Compares companies using radar charts and KPI tables.
+
+---
+
+## 5. Trend Analysis
+
+### Trend Charts
+
+![Trend Analysis](screenshots/trends.png)
+
+### Additional Trends
+
+![Trend Analysis Continued](screenshots/trends2.png)
+
+Displays multi-year financial performance.
+
+---
+
+## 6. Sector Analysis
+
+![Sector Analysis](screenshots/sector.png)
+
+Shows sector-wise comparisons and median metrics.
+
+---
+
+## 7. Capital Allocation
+
+![Capital Allocation](screenshots/Capital.png)
+
+Visualizes capital allocation patterns using a treemap.
+
+---
+
+## 8. Annual Reports
+
+![Annual Reports](screenshots/report.png)
+
+Provides searchable annual report links for companies.
+---
 
 # Current Progress
 
@@ -585,7 +668,21 @@ python -m src.screener.presets
 
 # Execute All Unit Tests
 python -m pytest
+## Run the Streamlit Dashboard
+
+Activate the virtual environment:
+
+```bash
+venv\Scripts\activate
 ```
+
+Launch the dashboard:
+
+```bash
+streamlit run src/dashboard/app.py
+```
+
+The dashboard will open in your default web browser.
 ---
 
 # Deliverables

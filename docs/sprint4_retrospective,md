@@ -1,0 +1,16 @@
+# Sprint 4 Retrospective
+
+## UX Decisions
+- Implemented a clean multi-page Streamlit dashboard with sidebar navigation.
+- Added interactive Plotly charts for improved visualization.
+- Included CSV download options for analytical tables.
+
+## Data Edge Cases
+- Handled companies with partial financial history.
+- Displayed "N/A" for unavailable financial metrics.
+- Added graceful handling for missing annual reports and unavailable logos.
+
+## Performance Findings
+- Optimized SQLite queries using Streamlit caching.
+- Reduced page load times through efficient data loading.
+- Verified Company Profile screen loads within the expected performance target during testing.
