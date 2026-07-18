@@ -6,7 +6,7 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 
 ---
 
-# Project Objectives
+## Project Objectives
 
 * Build a scalable ETL pipeline for financial datasets.
 * Standardize financial year and stock ticker formats.
@@ -16,7 +16,7 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 * Generate validation and load audit reports.
 
 ---
-# Sprint Progress
+## Sprint Progress
 
 | Sprint | Status |
 |---------|--------|
@@ -117,7 +117,7 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Updated project documentation.
 - Successfully completed Sprint 1 – Data Foundation.
 ---------
-## SPRINT 2 — Financial Ratio Engine
+# SPRINT 2 — Financial Ratio Engine
 ## Day 8 – Profitability Ratio Engine 
 
 - Created the `analytics` module.
@@ -186,7 +186,8 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Completed Sprint 2 retrospective.
 - Demonstrated financial_ratios table.
 ---
-## SPRINT 3 — Screener & Peer Comparison Engine
+# SPRINT 3 — Screener & Peer Comparison Engine
+
 ## Day 15 – Financial Screener Filter Engine
 
 - Created the Financial Screener Filter Engine.
@@ -252,8 +253,9 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Verified radar chart generation.
 - Completed Sprint 3 retrospective and project demonstration.
 ---
-## Sprint 4 – Day 22: Streamlit Dashboard Scaffold
-### Day 22 – Streamlit Dashboard Scaffold
+# Sprint 4 – Day 22: Streamlit Dashboard Scaffold
+
+## Day 22 – Streamlit Dashboard Scaffold
 
 - Developed the initial Streamlit dashboard framework with multi-page navigation and a responsive wide-layout interface.
 - Implemented a reusable SQLite database utility module with cached data loading for efficient access to company and financial data.
@@ -279,28 +281,35 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Built Capital Allocation Map using Plotly treemap and company pattern classification.
 - Added Annual Reports page with searchable company reports and downloadable PDF links.
 ---
-# Day 26-Valuation Analytics Module
+## Day 26-Valuation Analytics Module
 
 - Integrated company, financial ratio, market capitalization, and sector data for valuation analysis.
 - Calculated FCF Yield, Sector Median P/E, and P/E vs Sector Median percentage for all companies.
 - Classified companies as **Caution**, **Discount**, or **Fair** based on valuation rules.
 - Generated `valuation_summary.xlsx` and `valuation_flags.csv` reports for further analysis.
 ---
-# Day 27-Integration QA & Bug Fixes
+## Day 27-Integration QA & Bug Fixes
 
 - Tested the Streamlit dashboard using multiple companies across different sectors and validated handling of partial data.
 - Performed QA checks for missing values, generated QA reports, and verified application stability under different scenarios.
 - Created QA artifacts including sample companies, missing data summary, QA checklist, and QA summary report.
 - Improved application reliability by validating edge cases and preparing the project for final integration testing.
 ---
-# Day 29 – NLP Analysis Text Parser
+## Day 29 – NLP Analysis Text Parser
 
 - Developed the NLP Analysis Text Parser to extract structured financial metrics from textual analysis data.
 - Parsed compounded sales growth, compounded profit growth, stock price CAGR, and ROE using regular expressions.
 - Generated `analysis_parsed.csv` containing parsed metrics and `parse_failures.csv` for entries requiring manual review.
 - Implemented cross-validation framework for comparing parsed CAGR values with Ratio Engine outputs and generated a validation review report.
 ---
-# Project Structure
+## Day 30 – NLP Auto Pros & Cons Generator
+
+- Developed the NLP Auto Pros & Cons Generator using 12 Pro Rules and 12 Con Rules based on financial performance, growth, leverage, and cash flow metrics.
+- Implemented confidence scoring (0–100) to rank generated insights and included only high-confidence statements in the final output.
+- Generated `pros_cons_generated.csv` containing company-wise Pros, Cons, rule IDs, confidence scores, and investment insights.
+- Validated the generated output to ensure company coverage and summarized the overall rule execution results.
+---
+## Project Structure
 
 ```text
 nifty100_financial_analytics/
@@ -399,7 +408,7 @@ nifty100_financial_analytics/
 
 ---
 
-# ETL Workflow
+## ETL Workflow
 
 ```text
 Excel Files
@@ -431,7 +440,7 @@ Power BI Dashboard
 
 ---
 
-# Technologies Used
+## Technologies Used
 
 - Python 3.12
 - Pandas
@@ -446,7 +455,7 @@ Power BI Dashboard
 
 ---
 
-# Modules
+## Modules
 
 ## Loader Module (`loader.py`)
 
@@ -518,7 +527,7 @@ Responsible for:
 * Confirming successful ETL execution
 
 ---
-# Dashboard Screens
+## Dashboard Screens
 
 ## 1. Home Dashboard
 
@@ -601,7 +610,7 @@ Visualizes capital allocation patterns using a treemap.
 Provides searchable annual report links for companies.
 ---
 
-# Current Progress
+## Current Progress
 
 ## Sprint 1 – Data Foundation
 
@@ -633,10 +642,19 @@ Provides searchable annual report links for companies.
 - Peer Comparison Engine
 - Radar Charts
 - Excel Reports
+## Sprint 4 – Dashboard & Valuation Module
 
----
-
-# How to Run
+- Streamlit Multi-Page Dashboard
+- Home Dashboard
+- Company Profile
+- Stock Screener
+- Peer Comparison
+- Trend Analysis
+- Sector Analysis
+- Capital Allocation Map
+- Annual Reports
+- Valuation Analytics Module
+## How to Run
 
 ```bash
 # Activate Virtual Environment
@@ -691,7 +709,7 @@ streamlit run src/dashboard/app.py
 The dashboard will open in your default web browser.
 ---
 
-# Deliverables
+## Deliverables
 
 ## Database
 
@@ -730,7 +748,7 @@ The dashboard will open in your default web browser.
 
 ---
 
-# Author
+## Author
 
 **Sricharan Medaboina**
 

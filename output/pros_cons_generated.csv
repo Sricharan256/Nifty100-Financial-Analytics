@@ -1,0 +1,622 @@
+company_id,company_name,category,statement,confidence
+ABB,Abbott India Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,90
+ABB,Abbott India Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,80
+ABB,Abbott India Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,70
+ABB,Abbott India Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+ABB,Abbott India Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+ABB,Abbott India Ltd,Pro,Debt levels remain under control.,60
+ADANIENSOL,Adani Energy Solutions Ltd,Con,Low Return on Equity indicates weaker shareholder returns.,60
+ADANIENSOL,Adani Energy Solutions Ltd,Con,Low ROCE suggests inefficient capital utilization.,60
+ADANIENSOL,Adani Energy Solutions Ltd,Con,High Debt-to-Equity increases financial risk.,60
+ADANIENSOL,Adani Energy Solutions Ltd,Con,Low Net Profit Margin indicates weak profitability.,60
+ADANIENSOL,Adani Energy Solutions Ltd,Con,Low interest coverage may increase financial risk.,60
+ADANIENSOL,Adani Energy Solutions Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+ADANIENSOL,Adani Energy Solutions Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,90
+ADANIENSOL,Adani Energy Solutions Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+ADANIENT,Adani Enterprises Ltd,Con,Low Return on Equity indicates weaker shareholder returns.,60
+ADANIENT,Adani Enterprises Ltd,Con,Low Net Profit Margin indicates weak profitability.,70
+ADANIENT,Adani Enterprises Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+ADANIENT,Adani Enterprises Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+ADANIGREEN,Adani Green Energy Ltd,Con,High Debt-to-Equity increases financial risk.,70
+ADANIGREEN,Adani Green Energy Ltd,Con,Low interest coverage may increase financial risk.,60
+ADANIGREEN,Adani Green Energy Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+ADANIGREEN,Adani Green Energy Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+ADANIGREEN,Adani Green Energy Ltd,Con,Very high leverage increases long-term financial risk.,70
+ADANIGREEN,Adani Green Energy Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",Pro,Healthy Net Profit Margin indicates strong profitability.,100
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",Pro,Positive Free Cash Flow supports future growth.,100
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",Pro,Debt levels remain under control.,60
+ADANIPOWER,Adani Power Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,100
+ADANIPOWER,Adani Power Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+ADANIPOWER,Adani Power Ltd,Pro,Comfortable interest coverage reduces financial risk.,70
+ADANIPOWER,Adani Power Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+ADANIPOWER,Adani Power Ltd,Pro,Debt levels remain under control.,60
+AMBUJACEM,Ambuja Cements Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+AMBUJACEM,Ambuja Cements Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+AMBUJACEM,Ambuja Cements Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+AMBUJACEM,Ambuja Cements Ltd,Pro,Debt levels remain under control.,60
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",Con,Low Net Profit Margin indicates weak profitability.,70
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",Pro,Positive Free Cash Flow supports future growth.,100
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",Pro,Debt levels remain under control.,60
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",Pro,Healthy Net Profit Margin indicates strong profitability.,60
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",Pro,Strong Operating Profit Margin reflects operational efficiency.,60
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",Pro,Comfortable interest coverage reduces financial risk.,100
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",Pro,Positive Free Cash Flow supports future growth.,100
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",Pro,Debt levels remain under control.,60
+DMART,Avenue Supermarts Ltd,Con,Low Net Profit Margin indicates weak profitability.,70
+DMART,Avenue Supermarts Ltd,Con,Low Operating Profit Margin indicates poor operating efficiency.,60
+DMART,Avenue Supermarts Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+DMART,Avenue Supermarts Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+DMART,Avenue Supermarts Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+DMART,Avenue Supermarts Ltd,Pro,Debt levels remain under control.,60
+AXISBANK,Axis Bank Ltd,Con,Low ROCE suggests inefficient capital utilization.,70
+AXISBANK,Axis Bank Ltd,Con,High Debt-to-Equity increases financial risk.,80
+AXISBANK,Axis Bank Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+AXISBANK,Axis Bank Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+AXISBANK,Axis Bank Ltd,Con,Very high leverage increases long-term financial risk.,80
+AXISBANK,Axis Bank Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,80
+AXISBANK,Axis Bank Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,90
+BAJAJ-AUTO,Bajaj Auto Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+BAJAJ-AUTO,Bajaj Auto Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,70
+BAJAJ-AUTO,Bajaj Auto Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+BAJAJ-AUTO,Bajaj Auto Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+BAJAJ-AUTO,Bajaj Auto Ltd,Pro,Debt levels remain under control.,60
+BAJFINANCE,Bajaj Finance Ltd,Con,High Debt-to-Equity increases financial risk.,60
+BAJFINANCE,Bajaj Finance Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+BAJFINANCE,Bajaj Finance Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+BAJFINANCE,Bajaj Finance Ltd,Con,Very high leverage increases long-term financial risk.,60
+BAJFINANCE,Bajaj Finance Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,90
+BAJFINANCE,Bajaj Finance Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,80
+BAJFINANCE,Bajaj Finance Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+BAJAJFINSV,Bajaj Finserv Ltd,Con,High Debt-to-Equity increases financial risk.,70
+BAJAJFINSV,Bajaj Finserv Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+BAJAJFINSV,Bajaj Finserv Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+BAJAJFINSV,Bajaj Finserv Ltd,Con,Very high leverage increases long-term financial risk.,60
+BAJAJFINSV,Bajaj Finserv Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,100
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,Pro,Debt levels remain under control.,60
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,Pro,High Composite Quality Score indicates strong overall fundamentals.,100
+BANKBARODA,Bank of Baroda,Con,Low ROCE suggests inefficient capital utilization.,70
+BANKBARODA,Bank of Baroda,Con,High Debt-to-Equity increases financial risk.,90
+BANKBARODA,Bank of Baroda,Con,Negative Free Cash Flow may impact future growth.,100
+BANKBARODA,Bank of Baroda,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+BANKBARODA,Bank of Baroda,Con,Very high leverage increases long-term financial risk.,80
+BANKBARODA,Bank of Baroda,Pro,Healthy Net Profit Margin indicates strong profitability.,60
+BANKBARODA,Bank of Baroda,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+BEL,Bharat Electronics Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+BEL,Bharat Electronics Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,70
+BEL,Bharat Electronics Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,70
+BEL,Bharat Electronics Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+BEL,Bharat Electronics Ltd,Pro,Debt levels remain under control.,60
+BEL,Bharat Electronics Ltd,Pro,High Composite Quality Score indicates strong overall fundamentals.,100
+BHEL,"Bharat Heavy Electricals Limited
+",Con,Low Return on Equity indicates weaker shareholder returns.,80
+BHEL,"Bharat Heavy Electricals Limited
+",Con,Low ROCE suggests inefficient capital utilization.,80
+BHEL,"Bharat Heavy Electricals Limited
+",Con,Low Net Profit Margin indicates weak profitability.,80
+BHEL,"Bharat Heavy Electricals Limited
+",Con,Low Operating Profit Margin indicates poor operating efficiency.,80
+BHEL,"Bharat Heavy Electricals Limited
+",Con,Low interest coverage may increase financial risk.,60
+BHEL,"Bharat Heavy Electricals Limited
+",Con,Negative Free Cash Flow may impact future growth.,100
+BHEL,"Bharat Heavy Electricals Limited
+",Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+BHEL,"Bharat Heavy Electricals Limited
+",Pro,Debt levels remain under control.,60
+BPCL,Bharat Petroleum Corporation Ltd,Con,Low Net Profit Margin indicates weak profitability.,70
+BPCL,Bharat Petroleum Corporation Ltd,Con,Low Operating Profit Margin indicates poor operating efficiency.,60
+BPCL,Bharat Petroleum Corporation Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+BPCL,Bharat Petroleum Corporation Ltd,Pro,Comfortable interest coverage reduces financial risk.,70
+BPCL,Bharat Petroleum Corporation Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+BPCL,Bharat Petroleum Corporation Ltd,Pro,Debt levels remain under control.,60
+BHARTIARTL,Bharti Airtel Ltd,Con,High Debt-to-Equity increases financial risk.,60
+BHARTIARTL,Bharti Airtel Ltd,Con,Low Net Profit Margin indicates weak profitability.,70
+BHARTIARTL,Bharti Airtel Ltd,Con,Low interest coverage may increase financial risk.,60
+BHARTIARTL,Bharti Airtel Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+BHARTIARTL,Bharti Airtel Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+BHARTIARTL,Bharti Airtel Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+BOSCHLTD,Bosch Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+BOSCHLTD,Bosch Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+BOSCHLTD,Bosch Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+BOSCHLTD,Bosch Ltd,Pro,Debt levels remain under control.,60
+BRITANNIA,Britannia Industries Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,80
+BRITANNIA,Britannia Industries Ltd,Pro,Comfortable interest coverage reduces financial risk.,90
+BRITANNIA,Britannia Industries Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+BRITANNIA,Britannia Industries Ltd,Pro,Debt levels remain under control.,60
+CANBK,Canara Bank,Con,Low ROCE suggests inefficient capital utilization.,70
+CANBK,Canara Bank,Con,High Debt-to-Equity increases financial risk.,90
+CANBK,Canara Bank,Con,Low interest coverage may increase financial risk.,60
+CANBK,Canara Bank,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+CANBK,Canara Bank,Con,Very high leverage increases long-term financial risk.,90
+CANBK,Canara Bank,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+CANBK,Canara Bank,Pro,Positive Free Cash Flow supports future growth.,100
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,Con,High Debt-to-Equity increases financial risk.,70
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,Con,Very high leverage increases long-term financial risk.,70
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,70
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,80
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,Pro,Comfortable interest coverage reduces financial risk.,90
+CIPLA,"Cipla Ltd
+",Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+CIPLA,"Cipla Ltd
+",Pro,Healthy Net Profit Margin indicates strong profitability.,60
+CIPLA,"Cipla Ltd
+",Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+CIPLA,"Cipla Ltd
+",Pro,Comfortable interest coverage reduces financial risk.,80
+CIPLA,"Cipla Ltd
+",Pro,Positive Free Cash Flow supports future growth.,100
+CIPLA,"Cipla Ltd
+",Pro,Debt levels remain under control.,60
+COALINDIA,Coal India Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,70
+COALINDIA,Coal India Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,90
+COALINDIA,Coal India Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+COALINDIA,Coal India Ltd,Pro,Comfortable interest coverage reduces financial risk.,60
+COALINDIA,Coal India Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+COALINDIA,Coal India Ltd,Pro,Debt levels remain under control.,60
+DLF,DLF Ltd,Con,Low Return on Equity indicates weaker shareholder returns.,70
+DLF,DLF Ltd,Con,Low ROCE suggests inefficient capital utilization.,70
+DLF,DLF Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+DLF,DLF Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,100
+DLF,DLF Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,90
+DLF,DLF Ltd,Pro,Comfortable interest coverage reduces financial risk.,70
+DLF,DLF Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+DLF,DLF Ltd,Pro,Debt levels remain under control.,60
+DABUR,Dabur India Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+DABUR,Dabur India Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+DABUR,Dabur India Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+DABUR,Dabur India Ltd,Pro,Debt levels remain under control.,60
+DIVISLAB,Divis Laboratories Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+DIVISLAB,Divis Laboratories Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,80
+DIVISLAB,Divis Laboratories Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,80
+DIVISLAB,Divis Laboratories Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+DIVISLAB,Divis Laboratories Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+DIVISLAB,Divis Laboratories Ltd,Pro,Debt levels remain under control.,60
+DRREDDY,Dr Reddys Laboratories Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+DRREDDY,Dr Reddys Laboratories Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,70
+DRREDDY,Dr Reddys Laboratories Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,80
+DRREDDY,Dr Reddys Laboratories Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+DRREDDY,Dr Reddys Laboratories Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+DRREDDY,Dr Reddys Laboratories Ltd,Pro,Debt levels remain under control.,60
+EICHERMOT,Eicher Motors Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+EICHERMOT,Eicher Motors Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,80
+EICHERMOT,Eicher Motors Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,80
+EICHERMOT,Eicher Motors Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+EICHERMOT,Eicher Motors Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+EICHERMOT,Eicher Motors Ltd,Pro,Debt levels remain under control.,60
+GAIL,GAIL (India) Ltd,Con,Low Net Profit Margin indicates weak profitability.,60
+GAIL,GAIL (India) Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+GAIL,GAIL (India) Ltd,Pro,Comfortable interest coverage reduces financial risk.,90
+GAIL,GAIL (India) Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+GAIL,GAIL (India) Ltd,Pro,Debt levels remain under control.,60
+GODREJCP,Godrej Consumer Products Ltd,Con,Low Return on Equity indicates weaker shareholder returns.,90
+GODREJCP,Godrej Consumer Products Ltd,Con,Low Net Profit Margin indicates weak profitability.,90
+GODREJCP,Godrej Consumer Products Ltd,Con,Low interest coverage may increase financial risk.,60
+GODREJCP,Godrej Consumer Products Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+GODREJCP,Godrej Consumer Products Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+GODREJCP,Godrej Consumer Products Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,60
+GODREJCP,Godrej Consumer Products Ltd,Pro,Debt levels remain under control.,60
+GRASIM,Grasim Industries Ltd,Con,Low ROCE suggests inefficient capital utilization.,60
+GRASIM,Grasim Industries Ltd,Con,Low Net Profit Margin indicates weak profitability.,60
+GRASIM,Grasim Industries Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+GRASIM,Grasim Industries Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+GRASIM,Grasim Industries Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,60
+HCLTECH,HCL Technologies Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+HCLTECH,HCL Technologies Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,70
+HCLTECH,HCL Technologies Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+HCLTECH,HCL Technologies Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+HCLTECH,HCL Technologies Ltd,Pro,Debt levels remain under control.,60
+HDFCBANK,HDFC Bank Ltd,Con,Low ROCE suggests inefficient capital utilization.,70
+HDFCBANK,HDFC Bank Ltd,Con,High Debt-to-Equity increases financial risk.,70
+HDFCBANK,HDFC Bank Ltd,Con,Low interest coverage may increase financial risk.,60
+HDFCBANK,HDFC Bank Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+HDFCBANK,HDFC Bank Ltd,Con,Very high leverage increases long-term financial risk.,70
+HDFCBANK,HDFC Bank Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,80
+HDFCBANK,HDFC Bank Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+HDFCBANK,HDFC Bank Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+HDFCLIFE,HDFC Life Insurance Company Ltd,Con,Low ROCE suggests inefficient capital utilization.,70
+HDFCLIFE,HDFC Life Insurance Company Ltd,Con,Low Net Profit Margin indicates weak profitability.,80
+HDFCLIFE,HDFC Life Insurance Company Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+HDFCLIFE,HDFC Life Insurance Company Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+HDFCLIFE,HDFC Life Insurance Company Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+HDFCLIFE,HDFC Life Insurance Company Ltd,Pro,Debt levels remain under control.,60
+HAVELLS,Havells India Ltd,Con,Low Net Profit Margin indicates weak profitability.,60
+HAVELLS,Havells India Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+HAVELLS,Havells India Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+HAVELLS,Havells India Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+HAVELLS,Havells India Ltd,Pro,Debt levels remain under control.,60
+HEROMOTOCO,"Hero MotoCorp Ltd
+",Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+HEROMOTOCO,"Hero MotoCorp Ltd
+",Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+HEROMOTOCO,"Hero MotoCorp Ltd
+",Pro,Comfortable interest coverage reduces financial risk.,70
+HEROMOTOCO,"Hero MotoCorp Ltd
+",Pro,Positive Free Cash Flow supports future growth.,100
+HEROMOTOCO,"Hero MotoCorp Ltd
+",Pro,Debt levels remain under control.,60
+HINDALCO,Hindalco Industries Ltd,Con,Low Return on Equity indicates weaker shareholder returns.,60
+HINDALCO,Hindalco Industries Ltd,Con,Low Net Profit Margin indicates weak profitability.,70
+HINDALCO,Hindalco Industries Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+HINDALCO,Hindalco Industries Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+HINDALCO,Hindalco Industries Ltd,Pro,Comfortable interest coverage reduces financial risk.,80
+HINDALCO,Hindalco Industries Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+HINDALCO,Hindalco Industries Ltd,Pro,Debt levels remain under control.,60
+HAL,Hindustan Aeronautics Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,80
+HAL,Hindustan Aeronautics Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,90
+HAL,Hindustan Aeronautics Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+HAL,Hindustan Aeronautics Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+HAL,Hindustan Aeronautics Ltd,Pro,Debt levels remain under control.,60
+HAL,Hindustan Aeronautics Ltd,Pro,High Composite Quality Score indicates strong overall fundamentals.,100
+HINDUNILVR,"Hindustan Unilever Ltd
+",Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+HINDUNILVR,"Hindustan Unilever Ltd
+",Pro,Healthy Net Profit Margin indicates strong profitability.,60
+HINDUNILVR,"Hindustan Unilever Ltd
+",Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+HINDUNILVR,"Hindustan Unilever Ltd
+",Pro,Comfortable interest coverage reduces financial risk.,90
+HINDUNILVR,"Hindustan Unilever Ltd
+",Pro,Positive Free Cash Flow supports future growth.,100
+HINDUNILVR,"Hindustan Unilever Ltd
+",Pro,Debt levels remain under control.,60
+ICICIBANK,ICICI Bank Ltd,Con,Low ROCE suggests inefficient capital utilization.,70
+ICICIBANK,ICICI Bank Ltd,Con,High Debt-to-Equity increases financial risk.,70
+ICICIBANK,ICICI Bank Ltd,Con,Low interest coverage may increase financial risk.,60
+ICICIBANK,ICICI Bank Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+ICICIBANK,ICICI Bank Ltd,Con,Very high leverage increases long-term financial risk.,70
+ICICIBANK,ICICI Bank Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,90
+ICICIBANK,ICICI Bank Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+ICICIBANK,ICICI Bank Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+ICICIGI,ICICI Lombard General Insurance Company Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+ICICIGI,ICICI Lombard General Insurance Company Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+ICICIGI,ICICI Lombard General Insurance Company Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+ICICIGI,ICICI Lombard General Insurance Company Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+ICICIGI,ICICI Lombard General Insurance Company Ltd,Pro,Debt levels remain under control.,60
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,Con,Low Return on Equity indicates weaker shareholder returns.,70
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,Con,Low ROCE suggests inefficient capital utilization.,60
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,Con,Low Net Profit Margin indicates weak profitability.,80
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,Con,Low interest coverage may increase financial risk.,60
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,Pro,Debt levels remain under control.,60
+ITC,"ITC Ltd
+",Con,Low Composite Quality Score indicates weak overall fundamentals.,90
+ITC,"ITC Ltd
+",Pro,Healthy Net Profit Margin indicates strong profitability.,90
+ITC,"ITC Ltd
+",Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+ITC,"ITC Ltd
+",Pro,Comfortable interest coverage reduces financial risk.,100
+ITC,"ITC Ltd
+",Pro,Positive Free Cash Flow supports future growth.,100
+ITC,"ITC Ltd
+",Pro,Debt levels remain under control.,60
+IOC,"Indian Oil Corporation
+",Con,Low Net Profit Margin indicates weak profitability.,70
+IOC,"Indian Oil Corporation
+",Con,Low Operating Profit Margin indicates poor operating efficiency.,60
+IOC,"Indian Oil Corporation
+",Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+IOC,"Indian Oil Corporation
+",Pro,Comfortable interest coverage reduces financial risk.,70
+IOC,"Indian Oil Corporation
+",Pro,Positive Free Cash Flow supports future growth.,100
+IOC,"Indian Oil Corporation
+",Pro,Debt levels remain under control.,60
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,80
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,90
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,90
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,Pro,Debt levels remain under control.,60
+IRFC,Indian Railway Finance Corporation Ltd,Con,Low ROCE suggests inefficient capital utilization.,70
+IRFC,Indian Railway Finance Corporation Ltd,Con,High Debt-to-Equity increases financial risk.,80
+IRFC,Indian Railway Finance Corporation Ltd,Con,Low interest coverage may increase financial risk.,60
+IRFC,Indian Railway Finance Corporation Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+IRFC,Indian Railway Finance Corporation Ltd,Con,Very high leverage increases long-term financial risk.,80
+IRFC,Indian Railway Finance Corporation Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,80
+IRFC,Indian Railway Finance Corporation Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+IRFC,Indian Railway Finance Corporation Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+INDUSINDBK,IndusInd Bank Ltd,Con,Low ROCE suggests inefficient capital utilization.,70
+INDUSINDBK,IndusInd Bank Ltd,Con,High Debt-to-Equity increases financial risk.,70
+INDUSINDBK,IndusInd Bank Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+INDUSINDBK,IndusInd Bank Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+INDUSINDBK,IndusInd Bank Ltd,Con,Very high leverage increases long-term financial risk.,70
+INDUSINDBK,IndusInd Bank Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,70
+INDUSINDBK,IndusInd Bank Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+NAUKRI,Info Edge (India) Ltd,Con,Low Return on Equity indicates weaker shareholder returns.,80
+NAUKRI,Info Edge (India) Ltd,Con,Low ROCE suggests inefficient capital utilization.,80
+NAUKRI,Info Edge (India) Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+NAUKRI,Info Edge (India) Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+NAUKRI,Info Edge (India) Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,80
+NAUKRI,Info Edge (India) Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,80
+NAUKRI,Info Edge (India) Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+NAUKRI,Info Edge (India) Ltd,Pro,Debt levels remain under control.,60
+INFY,Infosys Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+INFY,Infosys Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,70
+INFY,Infosys Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,70
+INFY,Infosys Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+INFY,Infosys Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+INFY,Infosys Ltd,Pro,Debt levels remain under control.,60
+INDIGO,Interglobe Aviation Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+INDIGO,Interglobe Aviation Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+INDIGO,Interglobe Aviation Ltd,Pro,Debt levels remain under control.,60
+INDIGO,Interglobe Aviation Ltd,Pro,High Composite Quality Score indicates strong overall fundamentals.,100
+JSWENERGY,JSW Energy Ltd,Con,Low Return on Equity indicates weaker shareholder returns.,60
+JSWENERGY,JSW Energy Ltd,Con,Low ROCE suggests inefficient capital utilization.,60
+JSWENERGY,JSW Energy Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+JSWENERGY,JSW Energy Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+JSWENERGY,JSW Energy Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,60
+JSWENERGY,JSW Energy Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+JSWSTEEL,JSW Steel Ltd,Con,Low Net Profit Margin indicates weak profitability.,70
+JSWSTEEL,JSW Steel Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+JSWSTEEL,JSW Steel Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+JINDALSTEL,Jindal Steel & Power Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+JINDALSTEL,Jindal Steel & Power Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+JINDALSTEL,Jindal Steel & Power Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,60
+JINDALSTEL,Jindal Steel & Power Ltd,Pro,Comfortable interest coverage reduces financial risk.,60
+JINDALSTEL,Jindal Steel & Power Ltd,Pro,Debt levels remain under control.,60
+JIOFIN,Jio Financial Services Ltd,Con,Low Return on Equity indicates weaker shareholder returns.,80
+JIOFIN,Jio Financial Services Ltd,Con,Low ROCE suggests inefficient capital utilization.,80
+JIOFIN,Jio Financial Services Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,100
+JIOFIN,Jio Financial Services Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+JIOFIN,Jio Financial Services Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+JIOFIN,Jio Financial Services Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+JIOFIN,Jio Financial Services Ltd,Pro,Debt levels remain under control.,60
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",Con,Low ROCE suggests inefficient capital utilization.,70
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",Con,High Debt-to-Equity increases financial risk.,70
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",Con,Low interest coverage may increase financial risk.,60
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",Con,Very high leverage increases long-term financial risk.,60
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",Pro,Healthy Net Profit Margin indicates strong profitability.,100
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",Pro,Positive Free Cash Flow supports future growth.,100
+LTIM,LTIMindtree Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+LTIM,LTIMindtree Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+LTIM,LTIMindtree Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+LTIM,LTIMindtree Ltd,Pro,Debt levels remain under control.,60
+LT,Larsen & Toubro Ltd,Con,Low Net Profit Margin indicates weak profitability.,60
+LT,Larsen & Toubro Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+LT,Larsen & Toubro Ltd,Pro,Debt levels remain under control.,60
+LICI,Life Insurance Corporation of India,Con,Low Net Profit Margin indicates weak profitability.,70
+LICI,Life Insurance Corporation of India,Con,Low Operating Profit Margin indicates poor operating efficiency.,80
+LICI,Life Insurance Corporation of India,Con,Low Composite Quality Score indicates weak overall fundamentals.,90
+LICI,Life Insurance Corporation of India,Pro,Comfortable interest coverage reduces financial risk.,100
+LICI,Life Insurance Corporation of India,Pro,Positive Free Cash Flow supports future growth.,100
+LICI,Life Insurance Corporation of India,Pro,Debt levels remain under control.,60
+LODHA,Macrotech Developers Ltd,Con,Low Return on Equity indicates weaker shareholder returns.,60
+LODHA,Macrotech Developers Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+LODHA,Macrotech Developers Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+LODHA,Macrotech Developers Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,60
+LODHA,Macrotech Developers Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,80
+LODHA,Macrotech Developers Ltd,Pro,Comfortable interest coverage reduces financial risk.,60
+LODHA,Macrotech Developers Ltd,Pro,Debt levels remain under control.,60
+M&M,"Mahindra & Mahindra Ltd
+",Con,Negative Free Cash Flow may impact future growth.,100
+M&M,"Mahindra & Mahindra Ltd
+",Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+MARUTI,Maruti Suzuki India Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+MARUTI,Maruti Suzuki India Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+MARUTI,Maruti Suzuki India Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+MARUTI,Maruti Suzuki India Ltd,Pro,Debt levels remain under control.,60
+NHPC,"NHPC Ltd
+",Con,Low ROCE suggests inefficient capital utilization.,70
+NHPC,"NHPC Ltd
+",Con,Low Composite Quality Score indicates weak overall fundamentals.,90
+NHPC,"NHPC Ltd
+",Pro,Healthy Net Profit Margin indicates strong profitability.,100
+NHPC,"NHPC Ltd
+",Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+NHPC,"NHPC Ltd
+",Pro,Comfortable interest coverage reduces financial risk.,70
+NHPC,"NHPC Ltd
+",Pro,Positive Free Cash Flow supports future growth.,100
+NHPC,"NHPC Ltd
+",Pro,Debt levels remain under control.,60
+NTPC,NTPC Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+NTPC,NTPC Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,80
+NTPC,NTPC Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+NESTLEIND,Nestle India Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,60
+NESTLEIND,Nestle India Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,70
+NESTLEIND,Nestle India Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+NESTLEIND,Nestle India Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+NESTLEIND,Nestle India Ltd,Pro,Debt levels remain under control.,60
+ONGC,Oil & Natural Gas Corpn Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+ONGC,Oil & Natural Gas Corpn Ltd,Pro,Comfortable interest coverage reduces financial risk.,70
+ONGC,Oil & Natural Gas Corpn Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+ONGC,Oil & Natural Gas Corpn Ltd,Pro,Debt levels remain under control.,60
+PIDILITIND,Pidilite Industries Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+PIDILITIND,Pidilite Industries Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,60
+PIDILITIND,Pidilite Industries Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+PIDILITIND,Pidilite Industries Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+PIDILITIND,Pidilite Industries Ltd,Pro,Debt levels remain under control.,60
+PFC,Power Finance Corporation Ltd,Con,Low ROCE suggests inefficient capital utilization.,60
+PFC,Power Finance Corporation Ltd,Con,High Debt-to-Equity increases financial risk.,80
+PFC,Power Finance Corporation Ltd,Con,Low interest coverage may increase financial risk.,60
+PFC,Power Finance Corporation Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+PFC,Power Finance Corporation Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,90
+PFC,Power Finance Corporation Ltd,Con,Very high leverage increases long-term financial risk.,80
+PFC,Power Finance Corporation Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,90
+PFC,Power Finance Corporation Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+POWERGRID,Power Grid Corporation of India Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,90
+POWERGRID,Power Grid Corporation of India Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,100
+POWERGRID,Power Grid Corporation of India Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+POWERGRID,Power Grid Corporation of India Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+PNB,Punjab National Bank,Con,Low ROCE suggests inefficient capital utilization.,80
+PNB,Punjab National Bank,Con,High Debt-to-Equity increases financial risk.,60
+PNB,Punjab National Bank,Con,Low interest coverage may increase financial risk.,60
+PNB,Punjab National Bank,Con,Negative Free Cash Flow may impact future growth.,100
+PNB,Punjab National Bank,Con,Low Composite Quality Score indicates weak overall fundamentals.,80
+PNB,Punjab National Bank,Con,Very high leverage increases long-term financial risk.,60
+RECLTD,REC Ltd,Con,High Debt-to-Equity increases financial risk.,70
+RECLTD,REC Ltd,Con,Low interest coverage may increase financial risk.,60
+RECLTD,REC Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+RECLTD,REC Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,90
+RECLTD,REC Ltd,Con,Very high leverage increases long-term financial risk.,70
+RECLTD,REC Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,90
+RECLTD,REC Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,100
+RELIANCE,"Reliance Industries Ltd
+",Con,Low Return on Equity indicates weaker shareholder returns.,60
+RELIANCE,"Reliance Industries Ltd
+",Con,Low ROCE suggests inefficient capital utilization.,60
+RELIANCE,"Reliance Industries Ltd
+",Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+RELIANCE,"Reliance Industries Ltd
+",Pro,Comfortable interest coverage reduces financial risk.,60
+RELIANCE,"Reliance Industries Ltd
+",Pro,Positive Free Cash Flow supports future growth.,100
+RELIANCE,"Reliance Industries Ltd
+",Pro,Debt levels remain under control.,60
+SBILIFE,SBI Life Insurance Company Ltd,Con,Low Net Profit Margin indicates weak profitability.,80
+SBILIFE,SBI Life Insurance Company Ltd,Con,Low Operating Profit Margin indicates poor operating efficiency.,80
+SBILIFE,SBI Life Insurance Company Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+SBILIFE,SBI Life Insurance Company Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+SBILIFE,SBI Life Insurance Company Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+SBILIFE,SBI Life Insurance Company Ltd,Pro,Debt levels remain under control.,60
+MOTHERSON,Samvardhana Motherson International Ltd,Con,Low Net Profit Margin indicates weak profitability.,70
+MOTHERSON,Samvardhana Motherson International Ltd,Con,Low Operating Profit Margin indicates poor operating efficiency.,60
+MOTHERSON,Samvardhana Motherson International Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+MOTHERSON,Samvardhana Motherson International Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+MOTHERSON,Samvardhana Motherson International Ltd,Pro,Debt levels remain under control.,60
+SHREECEM,Shree Cement Ltd,Con,Low Return on Equity indicates weaker shareholder returns.,60
+SHREECEM,Shree Cement Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+SHREECEM,Shree Cement Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,70
+SHREECEM,Shree Cement Ltd,Pro,Comfortable interest coverage reduces financial risk.,80
+SHREECEM,Shree Cement Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+SHREECEM,Shree Cement Ltd,Pro,Debt levels remain under control.,60
+SHRIRAMFIN,"Shriram Finance Ltd
+",Con,High Debt-to-Equity increases financial risk.,60
+SHRIRAMFIN,"Shriram Finance Ltd
+",Con,Low interest coverage may increase financial risk.,60
+SHRIRAMFIN,"Shriram Finance Ltd
+",Con,Negative Free Cash Flow may impact future growth.,100
+SHRIRAMFIN,"Shriram Finance Ltd
+",Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+SHRIRAMFIN,"Shriram Finance Ltd
+",Con,Very high leverage increases long-term financial risk.,60
+SHRIRAMFIN,"Shriram Finance Ltd
+",Pro,Healthy Net Profit Margin indicates strong profitability.,80
+SHRIRAMFIN,"Shriram Finance Ltd
+",Pro,Strong Operating Profit Margin reflects operational efficiency.,80
+SIEMENS,Siemens Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+SIEMENS,Siemens Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+SIEMENS,Siemens Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+SIEMENS,Siemens Ltd,Pro,Debt levels remain under control.,60
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,70
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,80
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,Pro,Debt levels remain under control.,60
+TVSMOTOR,TVS Motor Company Ltd,Con,High Debt-to-Equity increases financial risk.,60
+TVSMOTOR,TVS Motor Company Ltd,Con,Low Net Profit Margin indicates weak profitability.,70
+TVSMOTOR,TVS Motor Company Ltd,Con,Negative Free Cash Flow may impact future growth.,100
+TVSMOTOR,TVS Motor Company Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+TVSMOTOR,TVS Motor Company Ltd,Con,Very high leverage increases long-term financial risk.,60
+TCS,Tata Consultancy Services Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,70
+TCS,Tata Consultancy Services Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,70
+TCS,Tata Consultancy Services Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,80
+TCS,Tata Consultancy Services Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+TCS,Tata Consultancy Services Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+TCS,Tata Consultancy Services Ltd,Pro,Debt levels remain under control.,60
+TATACONSUM,Tata Consumer Products Ltd,Con,Low Return on Equity indicates weaker shareholder returns.,70
+TATACONSUM,Tata Consumer Products Ltd,Con,Low Net Profit Margin indicates weak profitability.,60
+TATACONSUM,Tata Consumer Products Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+TATACONSUM,Tata Consumer Products Ltd,Pro,Comfortable interest coverage reduces financial risk.,100
+TATACONSUM,Tata Consumer Products Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+TATACONSUM,Tata Consumer Products Ltd,Pro,Debt levels remain under control.,60
+TATAMOTORS,Tata Motors Ltd,Con,Low Net Profit Margin indicates weak profitability.,60
+TATAMOTORS,Tata Motors Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+TATAMOTORS,Tata Motors Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+TATAPOWER,"Tata Power Company Ltd
+",Con,Low Net Profit Margin indicates weak profitability.,60
+TATAPOWER,"Tata Power Company Ltd
+",Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+TATAPOWER,"Tata Power Company Ltd
+",Pro,Positive Free Cash Flow supports future growth.,100
+TATASTEEL,"Tata Steel Ltd
+",Con,Low Return on Equity indicates weaker shareholder returns.,100
+TATASTEEL,"Tata Steel Ltd
+",Con,Low ROCE suggests inefficient capital utilization.,70
+TATASTEEL,"Tata Steel Ltd
+",Con,Low Net Profit Margin indicates weak profitability.,90
+TATASTEEL,"Tata Steel Ltd
+",Con,Low Operating Profit Margin indicates poor operating efficiency.,60
+TATASTEEL,"Tata Steel Ltd
+",Con,Low interest coverage may increase financial risk.,60
+TATASTEEL,"Tata Steel Ltd
+",Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+TATASTEEL,"Tata Steel Ltd
+",Pro,Positive Free Cash Flow supports future growth.,100
+TATASTEEL,"Tata Steel Ltd
+",Pro,Debt levels remain under control.,60
+TECHM,Tech Mahindra Ltd,Con,Low Return on Equity indicates weaker shareholder returns.,60
+TECHM,Tech Mahindra Ltd,Con,Low Net Profit Margin indicates weak profitability.,70
+TECHM,Tech Mahindra Ltd,Con,Low Operating Profit Margin indicates poor operating efficiency.,60
+TECHM,Tech Mahindra Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+TECHM,Tech Mahindra Ltd,Pro,Comfortable interest coverage reduces financial risk.,70
+TECHM,Tech Mahindra Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+TECHM,Tech Mahindra Ltd,Pro,Debt levels remain under control.,60
+TITAN,"Titan Company Ltd
+",Con,Low Net Profit Margin indicates weak profitability.,60
+TITAN,"Titan Company Ltd
+",Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+TITAN,"Titan Company Ltd
+",Pro,Comfortable interest coverage reduces financial risk.,70
+TITAN,"Titan Company Ltd
+",Pro,Positive Free Cash Flow supports future growth.,100
+TORNTPHARM,Torrent Pharmaceuticals Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+TORNTPHARM,Torrent Pharmaceuticals Ltd,Pro,Healthy Net Profit Margin indicates strong profitability.,60
+TORNTPHARM,Torrent Pharmaceuticals Ltd,Pro,Strong Operating Profit Margin reflects operational efficiency.,90
+TORNTPHARM,Torrent Pharmaceuticals Ltd,Pro,Comfortable interest coverage reduces financial risk.,70
+TORNTPHARM,Torrent Pharmaceuticals Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+TORNTPHARM,Torrent Pharmaceuticals Ltd,Pro,Debt levels remain under control.,60
+TRENT,Trent Ltd,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+TRENT,Trent Ltd,Pro,Comfortable interest coverage reduces financial risk.,60
+TRENT,Trent Ltd,Pro,Positive Free Cash Flow supports future growth.,100
+TRENT,Trent Ltd,Pro,Debt levels remain under control.,60
+UNIONBANK,,Con,High Debt-to-Equity increases financial risk.,90
+ULTRACEMCO,,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+UNIONBANK,,Con,Low Operating Profit Margin indicates poor operating efficiency.,80
+UNIONBANK,,Con,Low interest coverage may increase financial risk.,60
+UNIONBANK,,Con,Low Composite Quality Score indicates weak overall fundamentals.,100
+UNIONBANK,,Con,Very high leverage increases long-term financial risk.,80
+ULTRACEMCO,,Pro,Comfortable interest coverage reduces financial risk.,80
+ULTRACEMCO,,Pro,Positive Free Cash Flow supports future growth.,100
+ULTRACEMCO,,Pro,Debt levels remain under control.,60
+UNIONBANK,,Pro,Positive Free Cash Flow supports future growth.,100
