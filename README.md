@@ -24,7 +24,7 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 | Sprint 2 – Financial Ratio Engine | Completed |
 | Sprint 3 – Screener & Peer Comparison | Completed|
 | Sprint 4 – DASHBOARD & VALUATION MODULE | Completed |
-| Sprint 5 – QA, Documentation & Deployment | In Progress |
+| Sprint 5 – INTELLIGENCE, NLP & PDF REPORTS | In Progress |
 
 ---
 # Sprint 1 – Data Foundation
@@ -253,46 +253,52 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Completed Sprint 3 retrospective and project demonstration.
 ---
 ## Sprint 4 – Day 22: Streamlit Dashboard Scaffold
-
 ### Day 22 – Streamlit Dashboard Scaffold
 
 - Developed the initial Streamlit dashboard framework with multi-page navigation and a responsive wide-layout interface.
 - Implemented a reusable SQLite database utility module with cached data loading for efficient access to company and financial data.
 - Created the dashboard structure with eight placeholder screens covering Home, Company Profile, Screener, Peer Comparison, Trends, Sectors, Capital Allocation, and Reports.
 - Verified successful application startup, sidebar navigation, and database connectivity to support upcoming dashboard features.
-
+---
 ## Day 23-Home Screen & Company Profile Screen
 
 - Developed the Home Dashboard with KPI cards, sector-wise donut chart, and Top-5 companies table.
 - Implemented the Company Profile page with company search, financial KPI cards, charts, and Pros & Cons section.
 - Integrated the dashboard with the SQLite database and added handling for missing data.
-
+---
 ## Day 24-Screener Screen & Peer Comparison Screen
 
 - Developed the Stock Screener with financial metric filters, preset screening options, and CSV export.
 - Implemented the Peer Comparison page with radar chart and KPI comparison table.
 - Integrated dynamic filtering and peer analysis using SQLite database data.
-
+---
 ## Day 25-Remaining 4 Screens
 
 - Implemented Trend Analysis with multi-metric comparison and 10-year financial trends.
 - Developed Sector Analysis with bubble chart and sector median KPI visualization.
 - Built Capital Allocation Map using Plotly treemap and company pattern classification.
 - Added Annual Reports page with searchable company reports and downloadable PDF links.
-
+---
 # Day 26-Valuation Analytics Module
 
 - Integrated company, financial ratio, market capitalization, and sector data for valuation analysis.
 - Calculated FCF Yield, Sector Median P/E, and P/E vs Sector Median percentage for all companies.
 - Classified companies as **Caution**, **Discount**, or **Fair** based on valuation rules.
 - Generated `valuation_summary.xlsx` and `valuation_flags.csv` reports for further analysis.
-
+---
 # Day 27-Integration QA & Bug Fixes
 
 - Tested the Streamlit dashboard using multiple companies across different sectors and validated handling of partial data.
 - Performed QA checks for missing values, generated QA reports, and verified application stability under different scenarios.
 - Created QA artifacts including sample companies, missing data summary, QA checklist, and QA summary report.
 - Improved application reliability by validating edge cases and preparing the project for final integration testing.
+---
+# Day 29 – NLP Analysis Text Parser
+
+- Developed the NLP Analysis Text Parser to extract structured financial metrics from textual analysis data.
+- Parsed compounded sales growth, compounded profit growth, stock price CAGR, and ROE using regular expressions.
+- Generated `analysis_parsed.csv` containing parsed metrics and `parse_failures.csv` for entries requiring manual review.
+- Implemented cross-validation framework for comparing parsed CAGR values with Ratio Engine outputs and generated a validation review report.
 ---
 # Project Structure
 
@@ -327,7 +333,7 @@ nifty100_financial_analytics/
 ├── output/
 │   ├── screener_output.xlsx
 │   ├── peer_comparison.xlsx
-│   └── valuation_summary.xlsx        (Day 26)
+│   └── valuation_summary.xlsx        
 │
 ├── reports/
 │   └── radar_charts/
@@ -344,7 +350,7 @@ nifty100_financial_analytics/
 │   │   ├── peer.py
 │   │   ├── radar_chart.py
 │   │   ├── peer_comparison_report.py
-│   │   └── valuation.py              (Day 26)
+│   │   └── valuation.py              
 │   │
 │   ├── dashboard/
 │   │   ├── __init__.py
@@ -734,3 +740,4 @@ The dashboard will open in your default web browser.
 **Sprint 2 - Financial Ratio Engine**
 **Sprint 3 – Screener & Peer Comparison**
 **Sprint 4 – DASHBOARD & VALUATION MODULE**
+**Sprint 5 - INTELLIGENCE, NLP & PDF REPORTS**
