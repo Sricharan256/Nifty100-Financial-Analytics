@@ -295,40 +295,47 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Created QA artifacts including sample companies, missing data summary, QA checklist, and QA summary report.
 - Improved application reliability by validating edge cases and preparing the project for final integration testing.
 ---
-## Day 29 – NLP Analysis Text Parser
+## Day 29–NLP Analysis Text Parser
 
 - Developed the NLP Analysis Text Parser to extract structured financial metrics from textual analysis data.
 - Parsed compounded sales growth, compounded profit growth, stock price CAGR, and ROE using regular expressions.
 - Generated `analysis_parsed.csv` containing parsed metrics and `parse_failures.csv` for entries requiring manual review.
 - Implemented cross-validation framework for comparing parsed CAGR values with Ratio Engine outputs and generated a validation review report.
 ---
-## Day 30 – NLP Auto Pros & Cons Generator
+## Day 30–NLP Auto Pros & Cons Generator
 
 - Developed the NLP Auto Pros & Cons Generator using 12 Pro Rules and 12 Con Rules based on financial performance, growth, leverage, and cash flow metrics.
 - Implemented confidence scoring (0–100) to rank generated insights and included only high-confidence statements in the final output.
 - Generated `pros_cons_generated.csv` containing company-wise Pros, Cons, rule IDs, confidence scores, and investment insights.
 - Validated the generated output to ensure company coverage and summarized the overall rule execution results.
 ---
-## Day 31 – Cash Flow Intelligence Module
+## Day 31–Cash Flow Intelligence Module
 
 - Developed the Cash Flow Intelligence Module to analyze CFO Quality Score, CapEx Intensity, Free Cash Flow Conversion, and Capital Allocation patterns.
 - Implemented Distress Signal and Deleveraging detection using operating, investing, financing cash flows, and debt trends.
 - Generated `cashflow_intelligence.xlsx` containing company-wise cash flow KPIs, sector information, capital allocation labels, and financial health indicators.
 - Exported `distress_alerts.csv` listing companies with potential cash flow distress for further analysis.
 ---
-## Day 32 – Capital Allocation Report
+## Day 32–Capital Allocation Report
 
 - Developed the Capital Allocation Report by analyzing company-wise sector, sub-sector, market capitalization category, and index weight data.
 - Generated sector-wise and market-cap-wise distribution summaries to provide insights into the composition of the Nifty 100 index.
 - Created `capital_allocation_report.xlsx` containing company-level capital allocation details and `capital_allocation_sector_summary.csv` with aggregated sector statistics.
 - Exported all reports to the `output` directory for further analysis and visualization.
 ---
-## Day 33 - Company PDF Tearsheet
+## Day 33-Company PDF Tearsheet
 
 - Developed a two-page PDF tearsheet using ReportLab with a professional layout for company financial summaries.
 - Implemented KPI tiles, Revenue vs Net Profit, ROE vs ROCE, Balance Sheet Composition, and Cash Flow charts.
 - Integrated company Pros & Cons, Capital Allocation badge, and enabled word wrapping for improved PDF readability.
 - Generated company-wise PDF tearsheets for selected Nifty 100 companies and prepared the module for batch PDF generation.
+---
+## Day 34-Batch Report Generation
+
+- Implemented batch generation of company tearsheets with automatic handling of companies having insufficient historical data.
+- Developed sector-wise PDF reports summarizing median financial KPIs and company-level performance metrics for each sector.
+- Added report verification to validate generated PDFs, report counts, and skipped companies.
+- Organized report outputs into dedicated folders for company tearsheets, sector reports, and verification logs.
 ---
 ## Project Structure
 
