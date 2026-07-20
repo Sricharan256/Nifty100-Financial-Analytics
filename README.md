@@ -316,6 +316,20 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Generated `cashflow_intelligence.xlsx` containing company-wise cash flow KPIs, sector information, capital allocation labels, and financial health indicators.
 - Exported `distress_alerts.csv` listing companies with potential cash flow distress for further analysis.
 ---
+## Day 32 – Capital Allocation Report
+
+- Developed the Capital Allocation Report by analyzing company-wise sector, sub-sector, market capitalization category, and index weight data.
+- Generated sector-wise and market-cap-wise distribution summaries to provide insights into the composition of the Nifty 100 index.
+- Created `capital_allocation_report.xlsx` containing company-level capital allocation details and `capital_allocation_sector_summary.csv` with aggregated sector statistics.
+- Exported all reports to the `output` directory for further analysis and visualization.
+---
+## Day 33 - Company PDF Tearsheet
+
+- Developed a two-page PDF tearsheet using ReportLab with a professional layout for company financial summaries.
+- Implemented KPI tiles, Revenue vs Net Profit, ROE vs ROCE, Balance Sheet Composition, and Cash Flow charts.
+- Integrated company Pros & Cons, Capital Allocation badge, and enabled word wrapping for improved PDF readability.
+- Generated company-wise PDF tearsheets for selected Nifty 100 companies and prepared the module for batch PDF generation.
+---
 ## Project Structure
 
 ```text
