@@ -187,7 +187,7 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Demonstrated financial_ratios table.
 ---
 # SPRINT 3 — Screener & Peer Comparison Engine
-
+      
 ## Day 15 – Financial Screener Filter Engine
 
 - Created the Financial Screener Filter Engine.
@@ -308,6 +308,13 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Implemented confidence scoring (0–100) to rank generated insights and included only high-confidence statements in the final output.
 - Generated `pros_cons_generated.csv` containing company-wise Pros, Cons, rule IDs, confidence scores, and investment insights.
 - Validated the generated output to ensure company coverage and summarized the overall rule execution results.
+---
+## Day 31 – Cash Flow Intelligence Module
+
+- Developed the Cash Flow Intelligence Module to analyze CFO Quality Score, CapEx Intensity, Free Cash Flow Conversion, and Capital Allocation patterns.
+- Implemented Distress Signal and Deleveraging detection using operating, investing, financing cash flows, and debt trends.
+- Generated `cashflow_intelligence.xlsx` containing company-wise cash flow KPIs, sector information, capital allocation labels, and financial health indicators.
+- Exported `distress_alerts.csv` listing companies with potential cash flow distress for further analysis.
 ---
 ## Project Structure
 
