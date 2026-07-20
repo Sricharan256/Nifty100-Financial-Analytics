@@ -1,0 +1,20 @@
+SPRINT 5 DEMO CHECKLIST
+
+✓ Company Tearsheets (reports/tearsheets/)
+✓ Sector Reports (reports/sector/)
+✓ Portfolio Summary PDF
+✓ cashflow_intelligence.xlsx
+✓ distress_alerts.csv
+✓ pros_cons_generated.csv
+✓ analysis_parsed.csv
+
+Demo Companies:
+1. TCS
+2. HDFCBANK
+3. RELIANCE
+
+Verify:
+✓ Charts render correctly
+✓ No blank pages
+✓ No text overflow
+✓ KPIs displayed correctly

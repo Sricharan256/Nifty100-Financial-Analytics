@@ -24,7 +24,7 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 | Sprint 2 – Financial Ratio Engine | Completed |
 | Sprint 3 – Screener & Peer Comparison | Completed|
 | Sprint 4 – DASHBOARD & VALUATION MODULE | Completed |
-| Sprint 5 – INTELLIGENCE, NLP & PDF REPORTS | In Progress |
+| Sprint 5 – INTELLIGENCE, NLP & PDF REPORTS | Completed |
 
 ---
 # Sprint 1 – Data Foundation
@@ -336,6 +336,13 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Developed sector-wise PDF reports summarizing median financial KPIs and company-level performance metrics for each sector.
 - Added report verification to validate generated PDFs, report counts, and skipped companies.
 - Organized report outputs into dedicated folders for company tearsheets, sector reports, and verification logs.
+---
+## Day 35-Portfolio Summary & Sprint Review
+
+- Developed a portfolio summary PDF with one page per company, including sector information, top financial KPIs, and trend indicators.
+- Implemented portfolio report generation and organized outputs under the reports/portfolio directory.
+- Added Sprint 5 review utilities to verify all required deliverables and report generation status.
+- Prepared the project for Sprint 5 demo by validating reports, analytics outputs, and final deliverables.
 ---
 ## Project Structure
 
@@ -682,6 +689,18 @@ Provides searchable annual report links for companies.
 - Capital Allocation Map
 - Annual Reports
 - Valuation Analytics Module
+## Sprint 5 – Advanced Analytics & Reporting Module
+
+- Financial Health Score
+- Peer Comparison Engine
+- Cash Flow Intelligence
+- Capital Allocation Report
+- Company PDF Tearsheet
+- Batch Report Generation
+- Sector Report Generation
+- Portfolio Summary PDF
+- Sprint 5 Review & Deliverables Verification
+```
 ## How to Run
 
 ```bash
