@@ -1,0 +1,110 @@
+company_id,company_name,cluster_id,cluster_name,distance_from_centroid
+ABB,Abbott India Ltd,0,High-Quality Compounders,0.34845381310402657
+ADANIENSOL,Adani Energy Solutions Ltd,0,High-Quality Compounders,0.9994496473556874
+ADANIENT,Adani Enterprises Ltd,0,High-Quality Compounders,0.8234908225758084
+ADANIGREEN,Adani Green Energy Ltd,2,Value Cyclicals,1.2646493572329538
+ADANIPORTS,"Adani Ports & Special Economic Zone Ltd
+",3,Emerging Growth,0.9556649617487797
+ADANIPOWER,Adani Power Ltd,0,High-Quality Compounders,0.7694418038420998
+AMBUJACEM,Ambuja Cements Ltd,0,High-Quality Compounders,0.47374274181812787
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",0,High-Quality Compounders,0.4074618456750606
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",0,High-Quality Compounders,0.20887190990177748
+ATGL,Adani Total Gas Ltd,0,High-Quality Compounders,0.3338476291371331
+AXISBANK,Axis Bank Ltd,2,Value Cyclicals,1.0404979211934169
+BAJAJ-AUTO,Bajaj Auto Ltd,0,High-Quality Compounders,0.18782592569272533
+BAJAJFINSV,Bajaj Finserv Ltd,4,Distressed / Turnaround,0.9172013975975726
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,3,Emerging Growth,0.665106943544581
+BAJFINANCE,Bajaj Finance Ltd,4,Distressed / Turnaround,1.1636431708172406
+BANKBARODA,Bank of Baroda,2,Value Cyclicals,1.5527655785615788
+BEL,Bharat Electronics Ltd,1,Defensive Dividend Payers,1.0470707544296576
+BHARTIARTL,Bharti Airtel Ltd,0,High-Quality Compounders,1.663091554856282
+BHEL,"Bharat Heavy Electricals Limited
+",0,High-Quality Compounders,0.7708682588154104
+BOSCHLTD,Bosch Ltd,0,High-Quality Compounders,0.4252343128938721
+BPCL,Bharat Petroleum Corporation Ltd,0,High-Quality Compounders,0.9197316828877712
+BRITANNIA,Britannia Industries Ltd,0,High-Quality Compounders,0.17998062024965306
+CANBK,Canara Bank,2,Value Cyclicals,2.415681738039384
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,4,Distressed / Turnaround,1.2003637598344854
+CIPLA,"Cipla Ltd
+",3,Emerging Growth,0.4369446440690761
+COALINDIA,Coal India Ltd,3,Emerging Growth,0.7313365832772621
+DABUR,Dabur India Ltd,0,High-Quality Compounders,0.28881078153433726
+DIVISLAB,Divis Laboratories Ltd,0,High-Quality Compounders,0.42478237900709226
+DLF,DLF Ltd,0,High-Quality Compounders,0.5492457342719974
+DMART,Avenue Supermarts Ltd,0,High-Quality Compounders,0.5761780604171516
+DRREDDY,Dr Reddys Laboratories Ltd,0,High-Quality Compounders,0.4293993511136068
+EICHERMOT,Eicher Motors Ltd,0,High-Quality Compounders,0.37846374177662073
+GAIL,GAIL (India) Ltd,0,High-Quality Compounders,0.3964904459239462
+GODREJCP,Godrej Consumer Products Ltd,0,High-Quality Compounders,0.3698868706087939
+GRASIM,Grasim Industries Ltd,0,High-Quality Compounders,1.7892420675957612
+HAL,Hindustan Aeronautics Ltd,1,Defensive Dividend Payers,1.0470707544296645
+HAVELLS,Havells India Ltd,0,High-Quality Compounders,0.5131558136277348
+HCLTECH,HCL Technologies Ltd,0,High-Quality Compounders,0.44865142348841053
+HDFCBANK,HDFC Bank Ltd,2,Value Cyclicals,1.5943303480438777
+HDFCLIFE,HDFC Life Insurance Company Ltd,3,Emerging Growth,0.7768218412788944
+HEROMOTOCO,"Hero MotoCorp Ltd
+",3,Emerging Growth,0.30485387750726556
+HINDALCO,Hindalco Industries Ltd,3,Emerging Growth,0.3437775854051376
+HINDUNILVR,"Hindustan Unilever Ltd
+",3,Emerging Growth,0.39208228565254816
+ICICIBANK,ICICI Bank Ltd,2,Value Cyclicals,0.8542018762681346
+ICICIGI,ICICI Lombard General Insurance Company Ltd,3,Emerging Growth,0.39734069418219414
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,3,Emerging Growth,0.8007128323412772
+INDIGO,Interglobe Aviation Ltd,3,Emerging Growth,1.8127914221037107
+INDUSINDBK,IndusInd Bank Ltd,2,Value Cyclicals,1.1509300149270423
+INFY,Infosys Ltd,0,High-Quality Compounders,0.6308726645844791
+IOC,"Indian Oil Corporation
+",0,High-Quality Compounders,1.5016635087455534
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,0,High-Quality Compounders,0.6081736564264071
+IRFC,Indian Railway Finance Corporation Ltd,2,Value Cyclicals,1.6796123898499302
+ITC,"ITC Ltd
+",0,High-Quality Compounders,0.8405908446294342
+JINDALSTEL,Jindal Steel & Power Ltd,0,High-Quality Compounders,0.3925921450623166
+JIOFIN,Jio Financial Services Ltd,3,Emerging Growth,0.330579657676292
+JSWENERGY,JSW Energy Ltd,0,High-Quality Compounders,1.098607488929398
+JSWSTEEL,JSW Steel Ltd,0,High-Quality Compounders,0.4637815641372795
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",3,Emerging Growth,1.2362538522088258
+LICI,Life Insurance Corporation of India,0,High-Quality Compounders,0.7055215971259434
+LODHA,Macrotech Developers Ltd,0,High-Quality Compounders,0.3639528678371888
+LT,Larsen & Toubro Ltd,0,High-Quality Compounders,0.696274487400931
+LTIM,LTIMindtree Ltd,0,High-Quality Compounders,0.2859129160715884
+M&M,"Mahindra & Mahindra Ltd
+",0,High-Quality Compounders,0.8622507845414821
+MARUTI,Maruti Suzuki India Ltd,0,High-Quality Compounders,0.3550199992066722
+MOTHERSON,Samvardhana Motherson International Ltd,0,High-Quality Compounders,0.48759281487801587
+NAUKRI,Info Edge (India) Ltd,0,High-Quality Compounders,0.45097402696317773
+NESTLEIND,Nestle India Ltd,0,High-Quality Compounders,0.3405881345300186
+NHPC,"NHPC Ltd
+",0,High-Quality Compounders,1.1257424077246283
+NTPC,NTPC Ltd,0,High-Quality Compounders,0.4491561092077238
+ONGC,Oil & Natural Gas Corpn Ltd,0,High-Quality Compounders,1.556076281942579
+PFC,Power Finance Corporation Ltd,4,Distressed / Turnaround,2.113694829814991
+PIDILITIND,Pidilite Industries Ltd,0,High-Quality Compounders,0.3101607104191895
+PNB,Punjab National Bank,4,Distressed / Turnaround,1.46907905308863
+POWERGRID,Power Grid Corporation of India Ltd,3,Emerging Growth,0.8724278062515258
+RECLTD,REC Ltd,4,Distressed / Turnaround,2.179870920949408
+RELIANCE,"Reliance Industries Ltd
+",0,High-Quality Compounders,1.6906554283403943
+SBILIFE,SBI Life Insurance Company Ltd,0,High-Quality Compounders,0.8760197490750904
+SBIN,State Bank of India,2,Value Cyclicals,1.4760412845161521
+SHREECEM,Shree Cement Ltd,0,High-Quality Compounders,0.2746552153727619
+SHRIRAMFIN,"Shriram Finance Ltd
+",4,Distressed / Turnaround,1.4490947116048318
+SIEMENS,Siemens Ltd,0,High-Quality Compounders,0.3945729018231011
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,0,High-Quality Compounders,0.36868700869773724
+TATACONSUM,Tata Consumer Products Ltd,0,High-Quality Compounders,0.3755976569361363
+TATAMOTORS,Tata Motors Ltd,0,High-Quality Compounders,1.7212578088694457
+TATAPOWER,"Tata Power Company Ltd
+",0,High-Quality Compounders,0.41492568959877435
+TATASTEEL,"Tata Steel Ltd
+",0,High-Quality Compounders,0.4345572960603561
+TCS,Tata Consultancy Services Ltd,0,High-Quality Compounders,1.9381096393102881
+TECHM,Tech Mahindra Ltd,0,High-Quality Compounders,0.48422671094460806
+TITAN,"Titan Company Ltd
+",0,High-Quality Compounders,0.577707912555445
+TORNTPHARM,Torrent Pharmaceuticals Ltd,0,High-Quality Compounders,0.42947330435382974
+TRENT,Trent Ltd,0,High-Quality Compounders,0.30857662621121384
+TVSMOTOR,TVS Motor Company Ltd,0,High-Quality Compounders,1.2259526642349923

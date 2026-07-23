@@ -25,6 +25,7 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 | Sprint 3 – Screener & Peer Comparison | Completed|
 | Sprint 4 – DASHBOARD & VALUATION MODULE | Completed |
 | Sprint 5 – INTELLIGENCE, NLP & PDF REPORTS | Completed |
+| Sprint 6 - SPRINT 6 — API SERVER, CLUSTERING & FINAL QA|IN PROGRESS|
 
 ---
 # Sprint 1 – Data Foundation
@@ -343,6 +344,11 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Implemented portfolio report generation and organized outputs under the reports/portfolio directory.
 - Added Sprint 5 review utilities to verify all required deliverables and report generation status.
 - Prepared the project for Sprint 5 demo by validating reports, analytics outputs, and final deliverables.
+## Sprint 6 – Day 36: Company Clustering
+
+- Implemented KMeans clustering for 92 companies using standardized financial metrics.
+- Performed missing value imputation, feature scaling, elbow analysis, and cluster assignment.
+- Generated company cluster labels and saved the elbow plot for validation.
 ---
 ## Project Structure
 
@@ -806,3 +812,4 @@ The dashboard will open in your default web browser.
 **Sprint 3 – Screener & Peer Comparison**
 **Sprint 4 – DASHBOARD & VALUATION MODULE**
 **Sprint 5 - INTELLIGENCE, NLP & PDF REPORTS**
+**Sprint 6 - Company Clustering**
