@@ -1,0 +1,7 @@
+company_id,company_name,sector,metric,z_score
+INDIGO,Interglobe Aviation Ltd,Consumer Discretionary,return_on_equity_pct,3.6
+INDIGO,Interglobe Aviation Ltd,Consumer Discretionary,composite_quality_score,3.6
+TATAMOTORS,Tata Motors Ltd,Consumer Discretionary,free_cash_flow_cr,3.35
+ADANIGREEN,Adani Green Energy Ltd,Energy,debt_to_equity,3.15
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,Financials,composite_quality_score,4.49
+PNB,Punjab National Bank,Financials,return_on_equity_pct,3.33

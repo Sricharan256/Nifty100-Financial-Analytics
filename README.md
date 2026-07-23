@@ -256,8 +256,6 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 ---
 # Sprint 4 – Day 22: Streamlit Dashboard Scaffold
 
-## Day 22 – Streamlit Dashboard Scaffold
-
 - Developed the initial Streamlit dashboard framework with multi-page navigation and a responsive wide-layout interface.
 - Implemented a reusable SQLite database utility module with cached data loading for efficient access to company and financial data.
 - Created the dashboard structure with eight placeholder screens covering Home, Company Profile, Screener, Peer Comparison, Trends, Sectors, Capital Allocation, and Reports.
@@ -349,6 +347,11 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Implemented KMeans clustering for 92 companies using standardized financial metrics.
 - Performed missing value imputation, feature scaling, elbow analysis, and cluster assignment.
 - Generated company cluster labels and saved the elbow plot for validation.
+## Day 37: Cluster Profiling & Portfolio Statistics
+
+- Profiled company clusters by calculating mean and median values for key financial metrics.
+- Generated a Pearson correlation heatmap, detected sector-wise financial outliers, and produced portfolio-wide percentile statistics for financial KPIs.
+- Exported analytics outputs for visualization and further portfolio analysis.
 ---
 ## Project Structure
 
