@@ -347,21 +347,26 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Prepared the project for Sprint 5 demo by validating reports, analytics outputs, and final deliverables.
 ## Sprint 6 – API SERVER, CLUSTERING & FINAL QA
 
-## Day 36: Company Clustering
+## Day 36-Company Clustering
 
 - Implemented KMeans clustering for 92 companies using standardized financial metrics.
 - Performed missing value imputation, feature scaling, elbow analysis, and cluster assignment.
 - Generated company cluster labels and saved the elbow plot for validation.
-## Day 37: Cluster Profiling & Portfolio Statistics
+## Day 37-Cluster Profiling & Portfolio Statistics
 
 - Profiled company clusters by calculating mean and median values for key financial metrics.
 - Generated a Pearson correlation heatmap, detected sector-wise financial outliers, and produced portfolio-wide percentile statistics for financial KPIs.
 - Exported analytics outputs for visualization and further portfolio analysis.
-## Day 38: FastAPI Server Scaffold
+## Day 38-FastAPI Server Scaffold
 
 - Developed the FastAPI application structure with modular routers for analytics services.
 - Configured CORS middleware, request logging middleware, and implemented the health endpoint.
-- Verified API startup, Swagger documentation, and OpenAPI schema generation.
+- Verified API startup, Swagger documentation, and OpenAPI schema generation.\
+## Day 39-Company Data API Endpoints
+
+- Implemented REST API endpoints for company profiles, profit & loss, balance sheet, cash flow, financial ratios, and tearsheet downloads.
+- Adapted the API to the project's SQLite schema by using `companies.id` as the company identifier.
+- Added handling for missing (`NaN`) values to ensure JSON-compatible API responses.
 
 ---
 ## Project Structure
