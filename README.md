@@ -28,7 +28,7 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 | Sprint 6 - SPRINT 6 — API SERVER, CLUSTERING & FINAL QA|IN PROGRESS|
 
 ---
-# Sprint 1 – Data Foundation
+## Sprint 1 – Data Foundation
 
 ## Day 1 – Environment Setup 
 
@@ -118,7 +118,8 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Updated project documentation.
 - Successfully completed Sprint 1 – Data Foundation.
 ---------
-# SPRINT 2 — Financial Ratio Engine
+## SPRINT 2 — Financial Ratio Engine
+
 ## Day 8 – Profitability Ratio Engine 
 
 - Created the `analytics` module.
@@ -187,7 +188,7 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Completed Sprint 2 retrospective.
 - Demonstrated financial_ratios table.
 ---
-# SPRINT 3 — Screener & Peer Comparison Engine
+## SPRINT 3 — Screener & Peer Comparison Engine
       
 ## Day 15 – Financial Screener Filter Engine
 
@@ -254,7 +255,9 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Verified radar chart generation.
 - Completed Sprint 3 retrospective and project demonstration.
 ---
-# Sprint 4 – Day 22: Streamlit Dashboard Scaffold
+## Sprint 4 –  DASHBOARD & VALUATION MODULE
+
+# Day 22: Streamlit Dashboard Scaffold
 
 - Developed the initial Streamlit dashboard framework with multi-page navigation and a responsive wide-layout interface.
 - Implemented a reusable SQLite database utility module with cached data loading for efficient access to company and financial data.
@@ -342,7 +345,9 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Implemented portfolio report generation and organized outputs under the reports/portfolio directory.
 - Added Sprint 5 review utilities to verify all required deliverables and report generation status.
 - Prepared the project for Sprint 5 demo by validating reports, analytics outputs, and final deliverables.
-## Sprint 6 – Day 36: Company Clustering
+## Sprint 6 – API SERVER, CLUSTERING & FINAL QA
+
+## Day 36: Company Clustering
 
 - Implemented KMeans clustering for 92 companies using standardized financial metrics.
 - Performed missing value imputation, feature scaling, elbow analysis, and cluster assignment.
@@ -352,6 +357,12 @@ The **Nifty 100 Financial Analytics Platform** is an end-to-end data engineering
 - Profiled company clusters by calculating mean and median values for key financial metrics.
 - Generated a Pearson correlation heatmap, detected sector-wise financial outliers, and produced portfolio-wide percentile statistics for financial KPIs.
 - Exported analytics outputs for visualization and further portfolio analysis.
+## Day 38: FastAPI Server Scaffold
+
+- Developed the FastAPI application structure with modular routers for analytics services.
+- Configured CORS middleware, request logging middleware, and implemented the health endpoint.
+- Verified API startup, Swagger documentation, and OpenAPI schema generation.
+
 ---
 ## Project Structure
 
